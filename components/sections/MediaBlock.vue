@@ -4,8 +4,12 @@
       title="Медиацентр"
       :action="{ title: 'Все материалы', link: '/cabinet/news/' }"
     >
-      <b-col md="3" v-for="item in list" :key="item.title">
-        <card :item="item" />
+      <b-col v-for="(item, key) in list" :key="item.title" md="3">
+        <card
+          :item="item"
+          class="js-scroll"
+          :class="key % 2 === 0 ? 'fade-in-bottom' : 'fade-in-top'"
+        />
       </b-col>
     </card-template>
   </section>

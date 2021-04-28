@@ -27,7 +27,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .card.card--item {
-  border-radius: 0px;
   transition: box-shadow 0.3s ease;
   &:hover {
     box-shadow: 0 10px 20px rgba(211, 215, 221, 0.4);

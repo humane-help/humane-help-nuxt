@@ -1,6 +1,7 @@
 <template>
   <section class="partners">
     <b-container>
+      <h3 class="online-courses-section-title">Наши клиенты</h3>
       <VueSlickCarousel v-bind="settings">
         <a
           v-for="item in items"
