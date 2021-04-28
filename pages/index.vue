@@ -3,13 +3,9 @@
     <home-banner />
     <about />
     <media-block />
+    <online-courses />
     <programs />
     <courses />
+    <partners />
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style></style>

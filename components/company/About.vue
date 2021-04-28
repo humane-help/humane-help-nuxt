@@ -5,12 +5,7 @@
         <b-col class="section-title about--title" md="12">
           <h3 class="option-bold-700">О нас</h3>
           <div class="right_soc_icons">
-            <div class="social-icons">
-              <b-icon-facebook />
-              <b-icon-instagram />
-              <b-icon-youtube />
-              <b-icon-twitter />
-            </div>
+            <socials />
           </div>
         </b-col>
         <b-col class="about--content" md="6">

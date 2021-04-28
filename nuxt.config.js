@@ -24,8 +24,9 @@ export default {
     '~/components',
     '~/components/navigation',
     '~/components/company',
-    '~/components/blocks',
+    '~/components/sections',
     '~/components/card_blocks',
+    '~/components/footer',
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules

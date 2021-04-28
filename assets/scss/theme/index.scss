@@ -24,11 +24,19 @@
   color: var(--white);
 }
 section {
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0px 30px 0px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: var(--black);
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
 }
