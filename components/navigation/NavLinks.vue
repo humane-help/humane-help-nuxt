@@ -1,9 +1,9 @@
 <template>
   <ul class="top-level-menu">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="#">О компании</a></li>
+    <li><a href="#">Обучение </a></li>
     <li>
-      <a href="#">Offices</a>
+      <a href="#">Сертификация и Тестирование</a>
       <ul class="second-level-menu">
         <li><a href="#">Chicago</a></li>
         <li><a href="#">Los Angeles</a></li>
@@ -19,13 +19,33 @@
         <li><a href="#">Seattle</a></li>
       </ul>
     </li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#">PMC</a></li>
+    <li><a href="#">Другие услуги</a></li>
+    <li><a href="#">Партнёры</a></li>
   </ul>
 </template>
 
 <script>
 export default {
   name: 'NavLinks',
+  data() {
+    return {
+      menu: [
+        {
+          title: 'О компании',
+          url: '#',
+          children: [
+            { title: 'О компании', url: '#' },
+            { title: 'Миссия', url: '#' },
+            { title: 'Опыт', url: '#' },
+            { title: 'История', url: '#' },
+            { title: 'Только факты', url: '#' },
+            { title: 'Проведённые курсы', url: '#' },
+          ],
+        },
+      ],
+    }
+  },
   methods: {},
 }
 </script>
@@ -51,7 +71,7 @@ $primary: red;
     position: relative;
     float: left;
     height: $height;
-    width: 150px;
+    width: fit-content;
     &:hover {
       & > a {
         color: var(--primary);
