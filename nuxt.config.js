@@ -1,3 +1,4 @@
+import { join } from 'path'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -23,6 +24,7 @@ export default {
   components: [
     '~/components',
     '~/components/navigation',
+    '~/components/banners',
     '~/components/company',
     '~/components/sections',
     '~/components/card_blocks',
@@ -33,6 +35,13 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    [
+      '@nuxtjs/router',
+      {
+        path: join(__dirname, 'router'),
+        fileName: 'index.js',
+      },
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

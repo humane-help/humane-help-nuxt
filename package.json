@@ -11,11 +11,13 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@nuxtjs/router": "^1.6.1",
     "@nuxtjs/style-resources": "^1.0.0",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.4",
+    "path": "^0.12.7",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {

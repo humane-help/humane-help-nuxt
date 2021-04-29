@@ -26,44 +26,14 @@
         </b-col>
         <b-col md="9">
           <b-row>
-            <b-col md="3">
-              <h5 class="footer-bottom--title">Компания</h5>
+            <b-col cols="4" v-for="item in menu" :key="item.title">
+              <h5 class="footer-bottom--title">{{ item.title }}</h5>
               <a
-                v-for="item in links"
-                :key="item.title"
+                v-for="child in item.children"
+                :key="child.title"
                 class="d-block footer-bottom--link"
-                :href="item.url"
-                >{{ item.title }}</a
-              >
-            </b-col>
-            <b-col md="3">
-              <h5 class="footer-bottom--title">Сертификация</h5>
-              <a
-                v-for="item in links"
-                :key="item.title"
-                class="d-block footer-bottom--link"
-                :href="item.url"
-                >{{ item.title }}</a
-              >
-            </b-col>
-            <b-col md="3">
-              <h5 class="footer-bottom--title">Другие услуги</h5>
-              <a
-                v-for="item in links"
-                :key="item.title"
-                :href="item.url"
-                class="d-block footer-bottom--link"
-                >{{ item.title }}</a
-              >
-            </b-col>
-            <b-col md="3">
-              <h5 class="footer-bottom--title">Полезная информация</h5>
-              <a
-                v-for="item in links"
-                :key="item.title"
-                class="d-block footer-bottom--link"
-                :href="item.url"
-                >{{ item.title }}</a
+                :href="child.url"
+                >{{ child.title }}</a
               >
             </b-col>
           </b-row>
@@ -73,36 +43,12 @@
   </section>
 </template>
 <script>
+import menu from '@/assets/data/menu'
 export default {
   name: 'FooterBottom',
   data() {
     return {
-      links: [
-        {
-          title: 'О компании',
-          url: '#',
-        },
-        {
-          title: 'Наши представители',
-          url: '#',
-        },
-        {
-          title: 'Вакансии',
-          url: '#',
-        },
-        {
-          title: 'О компании',
-          url: '#',
-        },
-        {
-          title: 'Наши представители',
-          url: '#',
-        },
-        {
-          title: 'Вакансии',
-          url: '#',
-        },
-      ],
+      menu,
     }
   },
 }
@@ -114,8 +60,12 @@ export default {
   color: #7a7c7f;
   &--title {
     font-size: 1em;
-    margin-bottom: 30px;
     color: var(--white);
+    min-width: 120px;
+    min-height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
   }
 
   &--link {

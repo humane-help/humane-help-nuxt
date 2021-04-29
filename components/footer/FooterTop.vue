@@ -72,6 +72,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .footer-top {
+  margin-top: 60px;
   padding-top: 30px;
   background: $background;
   &--title {

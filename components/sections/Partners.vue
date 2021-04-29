@@ -91,6 +91,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 .partners {
+  img {
+    border-radius: 10px;
+  }
   &--control {
     background-color: $background;
     width: 30px;

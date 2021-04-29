@@ -1,6 +1,6 @@
 <template>
   <div class="topbar">
-    <b-container fluid>
+    <b-container>
       <div class="topbar--content">
         <company-address />
         <div class="phone">
@@ -28,7 +28,7 @@ export default {
   line-height: 18px;
   &--content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 41px;
   }

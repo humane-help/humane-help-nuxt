@@ -30,6 +30,7 @@ export default {
     height: 60px;
     width: 60px;
     object-fit: cover;
+    border-radius: 10px;
   }
   &--title {
     font-size: 13px;
