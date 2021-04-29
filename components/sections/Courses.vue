@@ -1,5 +1,5 @@
 <template>
-  <section class="programs">
+  <section class="programs page-background">
     <card-template title="Ближайшие курсы">
       <b-col md="12" v-for="item in list" :key="item.url">
         <card-horizontal :item="item" />
@@ -37,8 +37,3 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
-.programs {
-  background: $background;
-}
-</style>

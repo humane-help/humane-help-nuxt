@@ -69,6 +69,7 @@ export default {
     min-height: 400px;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     h4 {
       position: absolute;
       left: 0;
@@ -80,7 +81,7 @@ export default {
       color: #828282;
       max-width: 50%;
       padding: 20px 20px 20px 23px;
-      border-radius: 0 2px 0 0;
+      border-radius: 0 0 0 9px;
       margin: 0;
     }
   }

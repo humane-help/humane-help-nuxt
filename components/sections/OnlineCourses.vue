@@ -1,5 +1,5 @@
 <template>
-  <section class="online-courses">
+  <section class="online-courses page-background">
     <b-container>
       <h3 class="online-courses-section-title">Дистанционные курсы</h3>
     </b-container>
@@ -63,14 +63,15 @@ export default {
 </script>
 <style lang="scss" scoped>
 .online-courses {
-  background: $background;
   &-section-title {
     margin-bottom: 30px;
   }
   &--item {
     padding: 0 20px;
+    border-radius: 10px;
   }
   &--image {
+    border-radius: 10px;
     position: relative;
     height: 275px;
     transition: box-shadow 0.3s ease;
@@ -81,6 +82,7 @@ export default {
     margin-bottom: 10px;
   }
   &--overlay {
+    border-radius: 10px;
     opacity: 0.3;
     -webkit-transition: opacity 0.2s ease;
     -o-transition: opacity 0.2s ease;

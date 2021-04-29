@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about page-background">
     <b-container>
       <b-row>
         <b-col class="section-title about--title" md="12">
@@ -55,7 +55,6 @@
 </template>
 <style lang="scss" scoped>
 .about {
-  background: $background;
   &--title {
     h3 {
       line-height: 39px;

@@ -28,6 +28,48 @@
   border-color: $primary-light;
   color: var(--white);
 }
+.page-background {
+  position: relative;
+  background-image: radial-gradient(rgba($primary, 0.1) 10%, transparent 10%);
+  background-size: 12px 12px;
+  background-position: center;
+  &:after {
+    background-image: linear-gradient(
+      -90deg,
+      hsla(180, 5%, 96%, 0.001),
+      hsla(180, 5%, 96%, 0.1) 5%,
+      hsla(180, 5%, 96%, 0.3) 30%,
+      hsla(180, 5%, 96%, 0.5)
+    );
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    top: 0px;
+    content: '';
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &:before {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    content: '';
+    z-index: 2;
+    top: 0px;
+    pointer-events: none;
+    right: 0;
+    background-image: linear-gradient(
+      90deg,
+      hsla(180, 5%, 96%, 0.001),
+      hsla(180, 5%, 96%, 0.1) 5%,
+      hsla(180, 5%, 96%, 0.3) 30%,
+      hsla(180, 5%, 96%, 0.5)
+    );
+  }
+}
+
 section {
   padding: 60px 0;
 }
