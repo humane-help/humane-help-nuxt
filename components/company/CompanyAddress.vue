@@ -1,7 +1,9 @@
 <template>
   <div class="address">
-    <span class="address--city"> Москва </span>
-    <span class="address--street"> ул. Каланчёвская, д. 15 </span>
+    <span class="address--city"> Ташкент </span>
+    <span class="address--street">
+      100060, г.Ташкент, 1-проезд ул.Нукус, д.4</span
+    >
   </div>
 </template>
 <script>

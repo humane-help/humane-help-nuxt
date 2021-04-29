@@ -15,6 +15,14 @@ export const courseRoutes = [
     },
   },
   {
+    path: '/contacts',
+    component: load('Contacts'),
+    name: 'contacts',
+    meta: {
+      breadcrumb: [{ text: 'Главная', name: 'home' }, { text: 'Контакты' }],
+    },
+  },
+  {
     path: '/trainings',
     component: load('Trainings'),
     name: 'trainings',

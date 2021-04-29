@@ -50,5 +50,8 @@ export default {
     display: none;
   }
   color: white;
+  .logo {
+    filter: brightness(220%);
+  }
 }
 </style>

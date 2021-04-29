@@ -6,27 +6,29 @@
           <h5 class="footer-bottom--title">Наши контакты</h5>
           <div class="footer-bottom--contact">
             <b-icon-phone />
-            <a class="phone--text" href="tel:+74999389307"
-              >+7 (499) 938-93-07</a
+            <a class="phone--text" href="tel:+998712000833"
+              >+998 71 200-08-33</a
             >
           </div>
           <div class="footer-bottom--contact my-3">
             <b-icon-geo />
             <a href="#">
-              <span class="address--city"> Москва </span>
-              <span class="address--street"> ул. Каланчёвская, д. 15 </span>
+              <span class="address--city"> Ташкент </span>
+              <span class="address--street">
+                100060, г.Ташкент, 1-проезд ул.Нукус, д.4</span
+              >
             </a>
           </div>
           <div class="footer-bottom--contact">
             <b-icon-envelope />
-            <a class="mail--text" href="mailto:info@pm.expert"
-              >info@pm.expert</a
+            <a class="mail--text" href="mailto:info@pmexpert.uz"
+              >info@pmexpert.uz</a
             >
           </div>
         </b-col>
         <b-col md="9">
           <b-row>
-            <b-col cols="4" v-for="item in menu" :key="item.title">
+            <b-col v-for="item in menu" :key="item.title" cols="4">
               <h5 class="footer-bottom--title">{{ item.title }}</h5>
               <a
                 v-for="child in item.children"

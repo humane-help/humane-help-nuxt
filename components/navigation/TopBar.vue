@@ -5,11 +5,11 @@
         <company-address />
         <div class="phone">
           <b-icon-phone class="phone--icon" />
-          <a class="phone--text" href="tel:+74999389307">+7 (499) 938-93-07</a>
+          <a class="phone--text" href="tel:+998712000833">+998 71 200-08-33</a>
         </div>
         <div class="page-links">
-          <a href="/company/">О Компании</a>
-          <a href="/contacts/">Контакты</a>
+          <a href="/about">О Компании</a>
+          <a href="/contacts">Контакты</a>
         </div>
       </div>
     </b-container>

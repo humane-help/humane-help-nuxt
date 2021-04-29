@@ -5,23 +5,23 @@ export default [
     children: [
       {
         title: 'Миссия',
-        url: '1',
+        url: 'about',
       },
       {
         title: 'Опыт',
-        url: '2',
+        url: 'about',
       },
       {
         title: 'История',
-        url: '3',
+        url: 'about',
       },
       {
         title: 'Только факты',
-        url: '4',
+        url: 'about',
       },
       {
         title: 'Проведённые курсы',
-        url: '5',
+        url: 'about',
       },
     ],
   },
@@ -31,33 +31,33 @@ export default [
     children: [
       {
         title: 'Основы управления проектами',
-        url: '#',
+        url: 'courses',
       },
       {
         title: 'Дистанционные курсы по управлению проектами',
-        url: '#',
+        url: 'courses',
       },
       {
         title: 'Симуляционные деловые игры',
-        url: '#',
+        url: 'courses',
       },
       {
         title: 'Программы на заказ',
-        url: '#',
+        url: 'courses',
       },
     ],
   },
   {
     title: 'Сертификация и Тестирование',
-    url: '1',
+    url: 'about',
     children: [
       {
         title: 'Сертификация PME',
-        url: '#',
+        url: 'about',
       },
       {
         title: 'PM тест он-лайн',
-        url: '#',
+        url: 'about',
       },
     ],
   },
@@ -67,38 +67,33 @@ export default [
     children: [
       {
         title: 'PM Excellence',
-        url: '#',
+        url: 'trainings',
       },
       {
         title: 'Сервисы',
-        url: '#',
+        url: 'trainings',
       },
       {
         title: 'Что такое PMC',
-        url: '#',
+        url: 'trainings',
       },
       {
         title: 'Команда',
-        url: '#',
+        url: 'trainings',
       },
     ],
   },
   {
     title: 'Другие услуги',
-    url: '2',
+    url: 'about',
     children: [
       {
         title: 'Консалтинг',
-        url: '#',
+        url: 'about',
       },
       {
         title: 'Аутсорсинг',
-        url: '#',
       },
     ],
-  },
-  {
-    title: 'Партнёры',
-    url: '3',
   },
 ]
