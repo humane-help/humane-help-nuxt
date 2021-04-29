@@ -1,12 +1,12 @@
 import { join } from 'path'
 export default {
+  server: {
+    host: process.env.SERVER_IP,
+    port: process.env.SERVER_PORT
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'pm-expert',
-    server: {
-      host: process.env.SERVER_IP,
-      port: process.env.SERVER_PORT
-    },
     htmlAttrs: {
       lang: 'en',
     },
