@@ -4,15 +4,15 @@
       <top-bar />
       <b-container>
         <b-row class="align-center justify-center">
-          <b-col md="2" cols="6" class="">
+          <b-col lg="2" sm="3" cols="6" class="">
             <nuxt-link :to="{ name: 'home' }">
               <logo />
             </nuxt-link>
           </b-col>
-          <b-col md="9" cols="0" class="links">
+          <b-col lg="9" sm="0" cols="0" class="links">
             <nav-links />
           </b-col>
-          <b-col md="1" cols="6" class="icons">
+          <b-col lg="1" sm="9" cols="6" class="icons">
             <b-icon-search />
             <mobile-menu />
           </b-col>
@@ -48,7 +48,7 @@ export default {
   z-index: 100000;
   width: 100%;
   transition: background-color 0.3s ease-in-out;
-  @include sm-down() {
+  @include md-down() {
     .container {
       padding-top: 10px;
     }
@@ -58,7 +58,7 @@ export default {
   position: fixed;
   background-color: var(--primary);
   box-shadow: 0px 4px 6px 0px #0000005c;
-  @include sm-down() {
+  @include md-down() {
     height: 60px;
   }
   .topbar {
@@ -70,12 +70,15 @@ export default {
   }
 }
 .links {
-  @include sm-down() {
+  @include md-down() {
     display: none;
   }
 }
 .spacer {
   height: 120px;
+  @include md-down() {
+    height: 90px;
+  }
   @include sm-down() {
     height: 50px;
   }

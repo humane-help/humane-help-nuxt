@@ -78,7 +78,7 @@ export default {
   &--title {
     font-size: 1em;
     margin-bottom: 30px;
-    @include sm-down() {
+    @include md-down() {
       margin-top: 30px;
     }
   }

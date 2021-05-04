@@ -83,7 +83,7 @@ export default {
     }
   }
   &--contact {
-    @include sm-down() {
+    @include md-down() {
       margin-bottom: 20px;
     }
     a {

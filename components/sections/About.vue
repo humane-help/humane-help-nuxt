@@ -46,7 +46,7 @@
             </a>
           </div>
         </b-col>
-        <b-col md="6" class="d-sm-none">
+        <b-col md="6" class="about--banner">
           <about-banner />
         </b-col>
       </b-row>
@@ -68,8 +68,14 @@
     font-size: 12pt;
   }
   &--content {
-    @include sm-down() {
+    @include md-down() {
       margin-bottom: 30px;
+    }
+  }
+  &--banner {
+    display: block;
+    @include sm-down() {
+      display: none;
     }
   }
 }

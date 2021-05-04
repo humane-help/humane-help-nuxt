@@ -37,7 +37,7 @@ $height: 70px;
   list-style: none;
   padding: 0;
   margin: 0;
-  @include sm-down() {
+  @include md-down() {
     display: none;
   }
   ul {

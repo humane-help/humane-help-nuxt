@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 .mobile-menu {
   display: none;
-  @include sm-down() {
+  @include md-down() {
     display: inline-block;
     &--icon {
       font-size: 20px;

@@ -5,8 +5,6 @@
       v-model="slide"
       class="about-banner"
       :interval="4000"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
     >
       <b-carousel-slide>
         <template #img>
@@ -48,18 +46,7 @@
 <script>
 export default {
   data() {
-    return {
-      slide: 0,
-      sliding: null,
-    }
-  },
-  methods: {
-    onSlideStart(slide) {
-      this.sliding = true
-    },
-    onSlideEnd(slide) {
-      this.sliding = false
-    },
+    return {}
   },
 }
 </script>

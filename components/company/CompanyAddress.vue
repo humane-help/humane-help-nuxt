@@ -11,3 +11,10 @@ export default {
   name: 'CompanyAddress',
 }
 </script>
+<style lang="scss" scoped>
+.address {
+  @include md-down() {
+    display: none;
+  }
+}
+</style>

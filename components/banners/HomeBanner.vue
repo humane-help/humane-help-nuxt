@@ -52,7 +52,7 @@ export default {
       object-fit: cover;
     }
     height: 660px;
-    @include sm-down() {
+    @include md-down() {
       max-height: 350px;
       height: 350px;
     }
