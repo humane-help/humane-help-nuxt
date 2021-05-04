@@ -15,7 +15,7 @@
     <b-container>
       <b-row>
         <b-col md="12">
-          <h1 class="mb-5">
+          <h1 class="mb-5 page-title">
             {{ $store.getters.pageTitle }}
           </h1>
         </b-col>
@@ -30,3 +30,8 @@
     <pages-footer />
   </div>
 </template>
+<style lang="scss" scoped>
+.page-title {
+  font-size: 20px;
+}
+</style>

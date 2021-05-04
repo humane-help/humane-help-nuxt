@@ -1,11 +1,14 @@
 <template>
-  <img class="logo" src="/img/logo.png" width="134" height="31" />
+  <img class="logo" src="/img/logo.png" />
 </template>
 
 <style>
-.NuxtLogo {
+.logo {
   animation: 1s appear;
   margin: auto;
+  width: 134px;
+  height: 31px;
+  object-fit: contain;
 }
 
 @keyframes appear {

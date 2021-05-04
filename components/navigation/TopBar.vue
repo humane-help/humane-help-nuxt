@@ -26,6 +26,9 @@ export default {
   color: var(--white);
   font-size: 13px;
   line-height: 18px;
+  @include sm-down() {
+    display: none;
+  }
   &--content {
     display: flex;
     justify-content: space-between;

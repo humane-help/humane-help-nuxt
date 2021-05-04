@@ -32,13 +32,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 $height: 70px;
-$primary: red;
-
 @import '~/node_modules/bootstrap/scss/bootstrap.scss';
 .top-level-menu {
   list-style: none;
   padding: 0;
   margin: 0;
+  @include sm-down() {
+    display: none;
+  }
   ul {
     padding: 0;
     margin: 0;

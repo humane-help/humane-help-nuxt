@@ -3,17 +3,25 @@
     <b-container>
       <h3 class="online-courses-section-title">Дистанционные курсы</h3>
     </b-container>
-    <VueSlickCarousel v-bind="settings">
-      <div v-for="item in items" :key="item.title" class="online-courses--item">
+    <div class="online-courses--slider">
+      <VueSlickCarousel v-bind="settings">
         <div
-          class="online-courses--image"
-          :style="{ 'background-image': 'url(' + item.image + ')' }"
+          v-for="item in items"
+          :key="item.title"
+          class="online-courses--item"
         >
-          <div class="online-courses--overlay" />
-          <a class="online-courses--link" :href="item.url">{{ item.title }}</a>
+          <div
+            class="online-courses--image"
+            :style="{ 'background-image': 'url(' + item.image + ')' }"
+          >
+            <div class="online-courses--overlay" />
+            <a class="online-courses--link" :href="item.url">{{
+              item.title
+            }}</a>
+          </div>
         </div>
-      </div>
-    </VueSlickCarousel>
+      </VueSlickCarousel>
+    </div>
   </section>
 </template>
 <script>
@@ -30,6 +38,29 @@ export default {
         infinite: true,
         slidesToShow: 4,
         speed: 500,
+        responsive: [
+          {
+            breakpoint: 1600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            },
+          },
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
       },
       items: [
         {
@@ -63,8 +94,16 @@ export default {
 </script>
 <style lang="scss" scoped>
 .online-courses {
+  &--slider {
+    @include xl-down() {
+      padding: 0 25px;
+    }
+  }
   &-section-title {
     margin-bottom: 30px;
+    @include sm-down() {
+      font-size: 20px;
+    }
   }
   &--item {
     padding: 0 20px;
@@ -147,5 +186,14 @@ export default {
     hsla(180, 5%, 96%, 0.6) 30%,
     hsla(180, 5%, 96%, 0.8)
   );
+}
+
+@media only screen and (max-width: 1500px) {
+  .online-courses >>> .slick-list:before {
+    right: 90%;
+  }
+  .online-courses >>> .slick-list:after {
+    left: 90%;
+  }
 }
 </style>

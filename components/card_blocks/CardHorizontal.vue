@@ -9,7 +9,7 @@
           {{ item.description }}
         </b-card-text>
         <div>
-          <span class="pr-4" v-for="element in item.dates" :key="element">
+          <span v-for="element in item.dates" :key="element" class="pr-4">
             <b-icon-calendar-date />
             {{ element }}
           </span>
@@ -25,6 +25,9 @@ export default {
   props: {
     item: {
       type: Object,
+      default() {
+        return {}
+      },
     },
   },
 }
@@ -37,12 +40,21 @@ export default {
   align-items: center;
   margin-bottom: 30px;
   transition: box-shadow 0.3s ease;
+  @include sm-down() {
+    display: block;
+    padding: 0;
+    padding-bottom: 40px;
+  }
   &:hover {
     box-shadow: 0 10px 20px rgba(211, 215, 221, 0.4);
   }
   &--image {
     height: 130px;
     width: 130px;
+    @include sm-down() {
+      width: 100%;
+      height: 100%;
+    }
     img {
       object-fit: cover;
       width: 100%;

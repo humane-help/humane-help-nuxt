@@ -8,9 +8,9 @@
         class="accordion--item"
       >
         <h4
-          @click="expand === key ? (expand = null) : (expand = key)"
           class="accordion--header"
           :class="{ 'accordion--header__active': expand === key }"
+          @click="expand === key ? (expand = null) : (expand = key)"
         >
           {{ item.title }}
 
@@ -49,6 +49,11 @@ export default {
 <style lang="scss" scoped>
 .faq {
   margin: 30px 0;
+  @include sm-down() {
+    h3 {
+      font-size: 20px;
+    }
+  }
 }
 .accordion {
   &--item {
@@ -64,6 +69,10 @@ export default {
     cursor: pointer;
     padding: 30px;
     margin: 0;
+    @include sm-down() {
+      font-size: 20px;
+      padding: 15px;
+    }
     &__active {
       background: #f6f7fa;
       .accordion--icon {
@@ -86,5 +95,8 @@ export default {
   opacity: 1;
   height: auto;
   padding: 30px;
+  @include sm-down() {
+    padding: 15px;
+  }
 }
 </style>

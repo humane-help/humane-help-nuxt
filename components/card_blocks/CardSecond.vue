@@ -36,6 +36,7 @@ export default {
 <style lang="scss" scoped>
 .card--item {
   transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
   &:hover {
     box-shadow: 0 10px 20px rgba(211, 215, 221, 0.4);
   }

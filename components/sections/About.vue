@@ -11,7 +11,7 @@
         <b-col class="about--content" md="6">
           <h4 class="option-bold"></h4>
           <h1>
-            <span style="font-size: 12pt"
+            <span class="about--span"
               >Обучение управлению проектами и сертификация специалистов в
               управлении проектами в компании PM Expert</span
             >
@@ -23,9 +23,9 @@
 
           <div class="company">
             <p style="text-align: justify">
-              <span style="font-size: 12pt">Компания </span
-              ><span style="font-size: 12pt">PM Expert</span
-              ><span style="font-size: 12pt">
+              <span class="about--span">Компания </span
+              ><span class="about--span">PM Expert</span
+              ><span class="about--span">
                 лидер в области обучения управлению проектами и сертификации
                 управленцев в России, также оказывает профессиональные услуги
                 управления проектами, программами и портфелями проектов по
@@ -46,7 +46,7 @@
             </a>
           </div>
         </b-col>
-        <b-col md="6">
+        <b-col md="6" class="d-sm-none">
           <about-banner />
         </b-col>
       </b-row>
@@ -56,9 +56,20 @@
 <style lang="scss" scoped>
 .about {
   &--title {
+    @include sm-down() {
+      margin-bottom: 0px;
+    }
     h3 {
       line-height: 39px;
       font-size: 30px;
+    }
+  }
+  &--span {
+    font-size: 12pt;
+  }
+  &--content {
+    @include sm-down() {
+      margin-bottom: 30px;
     }
   }
 }

@@ -8,7 +8,7 @@
         height="auto"
         title="дистанционные курсы"
       />
-      <h2 class="my-4">{{ title }}</h2>
+      <h2 class="my-4 page-sub-title">{{ title }}</h2>
 
       <b-row>
         <b-col v-for="item in list" :key="item.title" md="4">
@@ -53,3 +53,8 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+.page-sub-title {
+  font-size: 20px;
+}
+</style>

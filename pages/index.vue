@@ -1,7 +1,7 @@
 <template>
   <div>
     <home-banner />
-    <about class="js-scroll fade-in-top" />
+    <about />
     <media-block />
     <online-courses class="js-scroll fade-in-top" />
     <programs class="js-scroll fade-in-top" />

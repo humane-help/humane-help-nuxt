@@ -6,29 +6,18 @@
       class="home-banner"
       :interval="4000"
       indicators
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
+      controls
     >
-      <b-carousel-slide img-src="/img/slides/slider-1.jpg">
-        <h1>Дистанционный курс - Управление проектами в компании</h1>
-      </b-carousel-slide>
-
       <!-- Text slides with image -->
       <b-carousel-slide
+        v-for="item in list"
+        :key="item.image"
         class="home-banner--item"
-        caption="First slide"
-        text="Онлайн формат - курс Управление проектами на основе стандарта PMI"
-        img-src="/img/slides/slider-2.jpg"
-      ></b-carousel-slide>
-
-      <!-- Slides with image only -->
-      <b-carousel-slide
-        class="home-banner--item"
-        img-src="/img/slides/slider-3.jpg"
-      ></b-carousel-slide>
-
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+      >
+        <template #img>
+          <img width="100%" height="100%" :src="item.image" />
+        </template>
+      </b-carousel-slide>
     </b-carousel>
   </div>
 </template>
@@ -37,24 +26,36 @@
 export default {
   data() {
     return {
-      slide: 0,
-      sliding: null,
+      list: [
+        {
+          image: '/img/slides/slider-2.jpg',
+          text:
+            'Онлайн формат - курс Управление проектами на основе стандарта PMI',
+        },
+        {
+          image: 'https://picsum.photos/2024/562/?image=2',
+          text: 'Дистанционный курс - Управление проектами в компании',
+        },
+        {
+          image: '/img/slides/slider-3.jpg',
+          text: 'Дистанционный курс - Управление проектами в компании',
+        },
+      ],
     }
-  },
-  methods: {
-    onSlideStart(slide) {
-      this.sliding = true
-    },
-    onSlideEnd(slide) {
-      this.sliding = false
-    },
   },
 }
 </script>
 <style lang="scss" scoped>
 .home-banner {
   &--item {
-    max-height: 660px;
+    img {
+      object-fit: cover;
+    }
+    height: 660px;
+    @include sm-down() {
+      max-height: 350px;
+      height: 350px;
+    }
   }
   h1 {
     color: #1e242c;

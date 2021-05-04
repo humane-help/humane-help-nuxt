@@ -2,7 +2,7 @@ import { join } from 'path'
 export default {
   server: {
     host: process.env.SERVER_IP,
-    port: process.env.SERVER_PORT
+    port: process.env.SERVER_PORT,
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -62,7 +62,7 @@ export default {
   },
 
   styleResources: {
-    scss: '@/assets/scss/_variables.scss',
+    scss: ['@/assets/scss/_variables.scss', '@/assets/scss/breakpoints.scss'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

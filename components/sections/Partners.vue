@@ -1,7 +1,7 @@
 <template>
   <section class="partners">
     <b-container>
-      <h3 class="online-courses-section-title">Наши клиенты</h3>
+      <h3 class="partners-section-title">Наши клиенты</h3>
       <VueSlickCarousel v-bind="settings">
         <a
           v-for="item in items"
@@ -42,6 +42,29 @@ export default {
         dots: true,
         centerMode: true,
         centerPadding: '20px',
+        responsive: [
+          {
+            breakpoint: 1600,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 6,
+            },
+          },
+          {
+            breakpoint: 900,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+        ],
       },
       items: [
         {
@@ -91,6 +114,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 .partners {
+  @include sm-down() {
+    padding: 0 15px;
+    &-section-title {
+      margin-top: 20px;
+    }
+  }
   img {
     border-radius: 10px;
   }
@@ -111,5 +140,6 @@ export default {
 .partners >>> .slick-prev:before,
 .partners >>> .slick-next:before {
   content: '';
+  font-size: 0;
 }
 </style>

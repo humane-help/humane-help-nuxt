@@ -4,7 +4,7 @@
       title="Медиацентр"
       :action="{ title: 'Все материалы', link: '/cabinet/news/' }"
     >
-      <b-col v-for="(item, key) in list" :key="item.title" md="3">
+      <b-col v-for="(item, key) in list" :key="item.title" md="3" cols="12">
         <card
           :item="item"
           class="js-scroll"

@@ -1,9 +1,9 @@
 <template>
   <div>
     <b-carousel
-      class="about-banner"
       id="carousel-1"
       v-model="slide"
+      class="about-banner"
       :interval="4000"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"

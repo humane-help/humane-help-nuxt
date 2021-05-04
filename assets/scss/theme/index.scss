@@ -71,13 +71,24 @@
 }
 
 section {
-  padding: 60px 0;
+  padding: 50px 0;
+  @include sm-down() {
+    padding: 20px 0;
+  }
 }
 .section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+  @include sm-down() {
+    h3 {
+      font-size: 20px;
+    }
+    a {
+      font-size: 14px;
+    }
+  }
 }
 
 a {
@@ -184,5 +195,14 @@ a {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@include sm-down() {
+  .card-title {
+    font-size: 16px;
+  }
+  .d-sm-none {
+    display: none;
   }
 }
