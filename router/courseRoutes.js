@@ -42,4 +42,20 @@ export const courseRoutes = [
       ],
     },
   },
+  {
+    path: '/members',
+    component: load('Members'),
+    name: 'members',
+    meta: {
+      breadcrumb: [{ text: 'Главная', name: 'home' }, { text: 'Тренеры' }],
+    },
+  },
+  {
+    path: '/members/:id',
+    component: load('SingleMember'),
+    name: 'singleMember',
+    meta: {
+      breadcrumb: [{ text: 'Главная', name: 'home' }, { text: 'Тренеры' }],
+    },
+  },
 ]

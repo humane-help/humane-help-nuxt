@@ -1,25 +1,27 @@
 <template>
   <b-card tag="article" class="card--item">
-    <div class="card--item__image">
-      <img :src="item.image" img-alt="Image" />
-    </div>
-    <h4>
-      {{ item.title }}
-    </h4>
-    <b-card-text>
-      {{ item.description }}
-    </b-card-text>
-    <div>
-      {{ item.date }}
-    </div>
-    <a
-      v-for="element in item.links"
-      :key="element.url"
-      :href="element.url"
-      class="card--item__links"
-    >
-      {{ element.title }}
-    </a>
+    <nuxt-link :to="{ name: item.url, params: { id: item.id } }">
+      <div class="card--item__image">
+        <img :src="item.image" img-alt="Image" />
+      </div>
+      <h4>
+        {{ item.title }}
+      </h4>
+      <b-card-text>
+        {{ item.description }}
+      </b-card-text>
+      <div>
+        {{ item.date }}
+      </div>
+      <a
+        v-for="element in item.links"
+        :key="element.url"
+        :href="element.url"
+        class="card--item__links"
+      >
+        {{ element.title }}
+      </a>
+    </nuxt-link>
   </b-card>
 </template>
 <script>

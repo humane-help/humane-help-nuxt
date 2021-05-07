@@ -4,8 +4,8 @@
       title="Направления обучения"
       :action="{ title: 'Все услуги', link: '/cabinet/news/' }"
     >
-      <b-col md="3" sm="6" v-for="item in list" :key="item.title">
-        <card-second :item="item" />
+      <b-col md="6" v-for="item in list" :key="item.title">
+        <card-horizontal :item="item" />
       </b-col>
     </card-template>
   </section>

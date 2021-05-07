@@ -31,7 +31,9 @@
   </div>
 </template>
 <style lang="scss" scoped>
-.page-title {
-  font-size: 20px;
+@include sm-down() {
+  .page-title {
+    font-size: 20px;
+  }
 }
 </style>
