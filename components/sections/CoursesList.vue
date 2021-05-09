@@ -1,8 +1,8 @@
 <template>
   <section class="media-block">
     <card-template
-      :title="$t('menu.education')"
-      :action="{ title: $t('course.all_courses'), link: '/cabinet/news/' }"
+      :title="$t('help.title')"
+      :action="{ title: $t('help.categories'), link: '/cabinet/news/' }"
     >
       <b-col
         v-for="(item, key) in list"
@@ -28,38 +28,34 @@ export default {
         {
           url:
             'https://pm.expert/media/news/obyavlyaem-itogi-rozygrysha-prizov/',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/bd7/500_500_0/bd7e4a4f0c982593f94c495a6473bf54.jpg',
-          title: 'Объявляем итоги розыгрыша призов',
-          description: 'Поздравляем победительницу!',
-          date: '19 апреля 2021',
+          image: require('@/static/img/help/water.jpg'),
+          title: this.$t('help.clean_water'),
+          description: this.$t('help.clean_water_detail'),
+          date: this.$t('help.transactions'),
         },
         {
           url:
             'https://pm.expert/media/news/obyavlyaem-itogi-rozygrysha-prizov/',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/4ec/500_500_0/4ecdaf37d617008d6617d8a734b3125c.jpg',
-          title: 'Объявляем итоги розыгрыша призов',
-          description: 'Поздравляем победительницу!',
-          date: '19 апреля 2021',
+          image: require('@/static/img/help/food.jpg'),
+          title: this.$t('help.healthy_food'),
+          description: this.$t('help.healthy_food_detail'),
+          date: this.$t('help.transactions'),
         },
         {
           url:
             'https://pm.expert/media/news/obyavlyaem-itogi-rozygrysha-prizov/',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/bd7/500_500_0/bd7e4a4f0c982593f94c495a6473bf54.jpg',
-          title: 'Объявляем итоги розыгрыша призов',
-          description: 'Поздравляем победительницу!',
-          date: '19 апреля 2021',
+          image: require('@/static/img/help/edu.jpg'),
+          title: this.$t('help.education'),
+          description: this.$t('help.education_detail'),
+          date: this.$t('help.transactions'),
         },
         {
           url:
             'https://pm.expert/media/news/obyavlyaem-itogi-rozygrysha-prizov/',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/4ec/500_500_0/4ecdaf37d617008d6617d8a734b3125c.jpg',
-          title: 'Объявляем итоги розыгрыша призов',
-          description: 'Поздравляем победительницу!',
-          date: '19 апреля 2021',
+          image: require('@/static/img/help/med.jpg'),
+          title: this.$t('help.medical'),
+          description: this.$t('help.medical_detail'),
+          date: this.$t('help.transactions'),
         },
       ],
     }

@@ -5,13 +5,13 @@
         <company-address />
         <div class="phone">
           <b-icon-phone class="phone--icon" />
-          <a class="phone--text" href="tel:+998712000833">+998 71 200-08-33</a>
+          <a class="phone--text" href="tel:+998937077371">+998 93 707 73 71</a>
           &nbsp;|&nbsp;
           <b-icon-chat-left-text class="chat-left-text--icon" />
           <a
             class="phone--text"
             target="_blank"
-            href="https://t.me/mirjamolmamatov"
+            href="https://t.me/davron112"
             >{{ $t('top-bar.write_telegram') }}</a
           >
         </div>

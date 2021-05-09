@@ -6,14 +6,10 @@
           <div
             class="about-banner--item"
             :style="{
-              'background-image':
-                'url(https://pm.expert/upload/iblock/67c/67c471188bf14981650ea4b628b22adb.jpg)',
+              'background-image': `url(${require('@/static/img/help/23.jpg')})`,
             }"
           >
-            <h4>
-              Ежегодно тренеры PM Expert проходят курсы по программам Т-Т-Т в
-              лучших учебных заведениях.
-            </h4>
+            <h4>Мы способствуем образованному и здоровому воспитанию детей.</h4>
           </div>
         </template>
       </b-carousel-slide>
@@ -23,14 +19,10 @@
           <div
             class="about-banner--item"
             :style="{
-              'background-image':
-                'url(https://pm.expert/upload/iblock/d43/d43cce7e568a6e2bc0800849afb6df4a.jpg)',
+              'background-image': `url(${require('@/static/img/help/34.jpg')})`,
             }"
           >
-            <h4>
-              Тренеры PM Expert имеют практический опыт работы на самых
-              масштабных проектах страны.
-            </h4>
+            <h4>Наш фонд помогает нуждающимся детям.</h4>
           </div>
         </template>
       </b-carousel-slide>

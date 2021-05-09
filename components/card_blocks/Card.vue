@@ -6,11 +6,13 @@
     tag="article"
     class="card--item"
   >
-    <b-card-text>
+    <b-card-text style="font-size: small">
       {{ item.description }}
     </b-card-text>
     <div>
-      {{ item.date }}
+      <span style="font-size: small"
+        ><b-icon-check></b-icon-check>{{ item.date }}</span
+      >
     </div>
   </b-card>
 </template>

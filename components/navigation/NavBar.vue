@@ -13,8 +13,13 @@
             <nav-links />
           </b-col>
 
-          <b-col lg="3" sm="9" cols="6" class="icons">
-            <input type="text" class="search-input" /><b-icon-search />
+          <b-col lg="3" sm="9" cols="6" class="icons" style="display: flex">
+            <b-button color="primary" class="help-button">{{
+              $t('menu.need_help')
+            }}</b-button>
+            <b-button color="primary" class="search-input">{{
+              $t('menu.donate')
+            }}</b-button>
             <mobile-menu />
           </b-col>
         </b-row>
@@ -57,7 +62,7 @@ export default {
 }
 .darkHeader {
   position: fixed;
-  background-color: var(--primary);
+  background: linear-gradient(-45deg, #3f51b5 0%, #3f51b5 33%, #03a9f4 100%);
   box-shadow: 0px 4px 6px 0px #0000005c;
   @include md-down() {
     height: 60px;
@@ -67,7 +72,7 @@ export default {
   }
   color: white;
   .logo {
-    filter: brightness(220%);
+    filter: brightness(100);
   }
 }
 .links {
@@ -88,10 +93,15 @@ export default {
   text-align: right;
 }
 .search-input {
-  height: 23px;
   border-radius: 18px;
-  margin-right: 4px;
-  border: solid #666666 0.5px;
-  width: 92%;
+  margin-right: 2px;
+  border: solid #b2b9e8 0.5px;
+  background: linear-gradient(-45deg, #3f51b5 0%, #3f51b5 33%, #03a9f4 100%);
+}
+.help-button {
+  border-radius: 18px;
+  margin-right: 2px;
+  border: solid #b2b9e8 0.5px;
+  background: linear-gradient(-45deg, #b5743f 0%, #daa945 33%, #eed78b 100%);
 }
 </style>

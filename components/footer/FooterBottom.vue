@@ -7,8 +7,8 @@
           <h5 class="footer-bottom--title">{{ $t('footer.our_contacts') }}</h5>
           <div class="footer-bottom--contact">
             <b-icon-phone />
-            <a class="phone--text" href="tel:+998712000833"
-              >+998 71 200-08-33</a
+            <a class="phone--text" href="tel:+998937077371"
+              >+998 93 707 73 71</a
             >
           </div>
           <div class="footer-bottom--contact my-3">
@@ -20,8 +20,8 @@
           </div>
           <div class="footer-bottom--contact">
             <b-icon-envelope />
-            <a class="mail--text" href="mailto:info@pmexpert.uz"
-              >info@pmexpert.uz</a
+            <a class="mail--text" href="mailto:info@humane.uz"
+              >info@humane.uz</a
             >
           </div>
           <div class="footer-bottom--contact">

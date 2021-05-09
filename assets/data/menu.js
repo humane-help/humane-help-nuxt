@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'О компании',
+    title: 'О фонде',
     i18n: 'menu.about_company',
     url: 'about',
     children: [
@@ -25,14 +25,36 @@ export default [
         i18n: 'menu.facts',
       },
       {
-        title: 'Проведённые курсы',
-        url: 'about',
-        i18n: 'menu.finished_courses',
-      },
-      {
         title: 'Тренеры',
         url: 'members',
         i18n: 'menu.trainers',
+      },
+    ],
+  },
+  {
+    title: 'Categories',
+    url: 'courses',
+    i18n: 'menu.categories',
+    children: [
+      {
+        title: 'Основы управления проектами',
+        url: 'courses',
+        i18n: 'help.clean_water',
+      },
+      {
+        title: 'Дистанционные курсы по управлению проектами',
+        url: 'courses',
+        i18n: 'help.healthy_food',
+      },
+      {
+        title: 'Симуляционные деловые игры',
+        url: 'courses',
+        i18n: 'help.education',
+      },
+      {
+        title: 'Программы на заказ',
+        url: 'courses',
+        i18n: 'help.medical',
       },
     ],
   },
@@ -69,7 +91,7 @@ export default [
     i18n: 'menu.certification',
     children: [
       {
-        title: 'Сертификация PME',
+        title: 'Список',
         url: 'about',
         i18n: 'menu.certification_pme',
       },
@@ -84,43 +106,5 @@ export default [
     title: 'PMC',
     url: 'trainings',
     i18n: 'menu.pmc',
-    children: [
-      {
-        title: 'PM Excellence',
-        url: 'trainings',
-        i18n: 'menu.pmc_excellence',
-      },
-      {
-        title: 'Сервисы',
-        url: 'trainings',
-        i18n: 'menu.services',
-      },
-      {
-        title: 'Что такое PMC',
-        url: 'trainings',
-        i18n: 'menu.what_is_pmc',
-      },
-      {
-        title: 'Команда',
-        url: 'trainings',
-        i18n: 'menu.team',
-      },
-    ],
-  },
-  {
-    title: 'Другие услуги',
-    url: 'about',
-    i18n: 'menu.other_services',
-    children: [
-      {
-        title: 'Консалтинг',
-        url: 'about',
-        i18n: 'menu.consulting',
-      },
-      {
-        title: 'Аутсорсинг',
-        i18n: 'menu.outsourcing',
-      },
-    ],
   },
 ]

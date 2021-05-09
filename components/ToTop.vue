@@ -53,7 +53,7 @@ export default {
   z-index: 8;
   color: #fff;
   text-align: center;
-  background: #f11716;
+  background: #007bff;
   border: none;
   font-size: 22px;
   padding: 7px;

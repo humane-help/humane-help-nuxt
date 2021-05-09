@@ -1,18 +1,21 @@
 {
   "top-bar": {
-    "write_telegram": "Telegramimizga yozing"
+    "write_telegram": "Telegramda bizni kuzatib boring"
   },
   "menu": {
-    "about_company": "Kompaniya haqida",
+    "about_company": "Fond haqida",
     "mission": "Missiya",
     "experience": "Tajriba",
     "history": "Tariximiz",
     "facts": "Faqat faktlar",
     "education": "Ta'lim",
-    "trainers": "Treynerlar",
-    "certification_pme": "PME sertifikati",
-    "pm_test": "Onlayn PM testi",
-    "pmc": "PMS",
+    "categories": "Yordam",
+    "trainers": "Homiylar",
+    "certification_pme": "Yordam zarurlar ro'yxati",
+    "pm_test": "Yordam olgan bolalar",
+    "pmc": "Hisobotlar",
+    "donate": "Xayriya qilish",
+    "need_help": "Yordam kerak",
     "services": "Xizmatlar",
     "what_is_pmc": "PMS nima?",
     "team": "Komanda",
@@ -20,11 +23,11 @@
     "outsourcing": "Autsorsing",
     "other_services": "Boshqa xizmatlar",
     "pmc_excellence": "PM Excellence",
-    "certification": "Sertifikatlash va testlash",
+    "certification": "Yordamga zarur bolalar",
     "program_order": "Maxsus dasturlar",
     "simulation_games": "Simulyatsion biznes o'yinlari",
     "distance_courses": "Loyihani boshqarish bo'yicha masofaviy o'qitish kurslari",
-    "basis_project_management": "Loyihalarni boshqarish asoslari",
+    "basis_project_management": "Ko'ngillilar ro'yxati",
     "finished_courses": "Kurslar o'tkazildi",
     "contacts": "Kontaktlar"
   },
@@ -35,11 +38,11 @@
   "about": {
     "title": "Biz haqimizda",
     "detail": "Batafsil",
-    "about_company": "PM Expert kompaniyasi haqida",
-    "company": "Kompaniya",
-    "company_mission": "Kelajak unikal bilimlar ortida: innovatsion g'oyalar, yangi yondashuvlar, loyihalarni boshqarish usullari va strategiyalari",
-    "content": "PM Expert O'zbekistondagi va Rossiyadagi loyihalarni boshqarish va menejerlarni sertifikatlashtirish sohasida yetakchi hisoblanadi, shuningdek quyidagi yo'nalishlarda loyihalarni boshqarish, dasturlar va loyihalar portfellari bo'yicha professional xizmatlarni taqdim etadi: autsorsing (mijozlar loyihalarini tashqi boshqarish), konsalting (loyihani amalga oshirish) mijozning kompaniyasida boshqarish), o'qitish (loyihalarni boshqarish bo'yicha yuzma-yuz va masofaviy treninglar) va sertifikatlashtirish (mutaxassislarni baholash va kompaniyalardagi loyihalarni boshqarish tizimlarining auditi).",
-    "description": "PM Expert-da loyiha menejmenti bo'yicha mutaxassislarni sertifikatlash va testlash"
+    "about_company": "Biz haqimizda",
+    "company": "Fond",
+    "company_mission": "",
+    "content": "\"Humane\" xayriya jamg'armasi 18 yoshgacha (shu jumladan) bolalarga zamonaviy tibbiyot dosh bera oladigan kasalliklardan yordam berish uchun tashkil etilgan.",
+    "description": ""
   },
   "faq": {
     "title": "Ko'p beriladigan savollar"
@@ -48,17 +51,30 @@
     "title": "Kurslar",
     "all_courses": "Barcha kurslar"
   },
+  "help": {
+    "title": "Yordam:",
+    "categories": "Barchasini ko'rish",
+    "clean_water": "Toza suv uchun",
+    "healthy_food": "Oziq-ovqat uchun",
+    "education": "Ta'lim uchun",
+    "medical": "Tibbiy yordam uchun",
+    "clean_water_detail": "Toza suv uchun",
+    "healthy_food_detail": "Oziq-ovqat uchun",
+    "education_detail": "Ta'lim uchun",
+    "transactions": "2034 ta tranzaksiya amalga oshirilgan",
+    "medical_detail": "Tibbiy yordam uchun"
+  },
   "news": {
     "title": "Yangiliklarimiz",
     "all_news": "Barcha yangiliklar"
   },
   "services": {
-    "title": "Bizning xizmatlarimiz",
+    "title": "Yordamga zarur bolalar",
     "all_services": "Barcha xizmatlar"
   },
   "finished_courses": {
-    "title": "O'tkazilgan kurslar",
-    "all_finished_courses": "Barcha o'tkazilgan kurslar"
+    "title": "Yordam olgan bolalar",
+    "all_finished_courses": "Barchasi"
   },
   "partners": {
     "title": "Bizning partnerlarimiz"

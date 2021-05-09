@@ -17,8 +17,7 @@
 
           <div class="company">
             <p style="text-align: justify">
-              <span class="about--span">{{ $t('about.company') }} </span
-              ><span class="about--span"> {{ $t('about.content') }}</span>
+              <span class="about--span"> {{ $t('about.content') }}</span>
             </p>
             <br />
           </div>

@@ -27,17 +27,12 @@ export default {
     return {
       list: [
         {
-          image: '/img/slides/slider-2.jpg',
-          text:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI',
+          image: '/img/slides/1.jpg',
+          text: '',
         },
         {
-          image: 'https://picsum.photos/2024/562/?image=2',
-          text: 'Дистанционный курс - Управление проектами в компании',
-        },
-        {
-          image: '/img/slides/slider-3.jpg',
-          text: 'Дистанционный курс - Управление проектами в компании',
+          image: '/img/slides/2.jpg',
+          text: '',
         },
       ],
     }
