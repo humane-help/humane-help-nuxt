@@ -7,7 +7,7 @@
   animation: 1s appear;
   margin: auto;
   width: 134px;
-  height: 31px;
+  height: 50px;
   object-fit: contain;
 }
 

@@ -30,17 +30,10 @@
 }
 .page-background {
   position: relative;
-  background-image: radial-gradient(rgba($primary, 0.1) 10%, transparent 10%);
-  background-size: 12px 12px;
-  background-position: center;
+  background-image: url("@/static/img/background.png");
+  background-size: 225px;
+  background-repeat: repeat;
   &:after {
-    background-image: linear-gradient(
-      -90deg,
-      hsla(180, 5%, 96%, 0.001),
-      hsla(180, 5%, 96%, 0.1) 5%,
-      hsla(180, 5%, 96%, 0.3) 30%,
-      hsla(180, 5%, 96%, 0.5)
-    );
     left: 0;
     position: absolute;
     height: 100%;

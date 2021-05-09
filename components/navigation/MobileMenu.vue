@@ -9,14 +9,18 @@
       <ul class="top-level-menu">
         <li v-for="item in menu" :key="item.title">
           <nuxt-link class="main-link" :to="{ path: item.url }">{{
-            item.title
+            $t(item.i18n)
           }}</nuxt-link>
           <ul v-if="item.children" class="second-level-menu">
             <li v-for="child in item.children" :key="child.title">
-              <nuxt-link :to="{ name: child.url }">{{ child.title }}</nuxt-link>
+              <nuxt-link :to="{ name: child.url }">{{
+                $t(child.i18n)
+              }}</nuxt-link>
               <ul v-if="child.children" class="third-level-menu">
                 <li v-for="sub in child.children" :key="sub.title">
-                  <nuxt-link :to="{ name: sub.url }">{{ sub.title }}</nuxt-link>
+                  <nuxt-link :to="{ name: sub.url }">{{
+                    $t(sub.i18n)
+                  }}</nuxt-link>
                 </li>
               </ul>
             </li>

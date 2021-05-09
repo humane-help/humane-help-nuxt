@@ -10,67 +10,55 @@ export default {
   layout: 'leftsided',
   data() {
     return {
-      title: 'Новые курсы и учебные программы PM Expert',
+      title: 'Дети, которые нуждаются в помощи',
       list: [
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/154/350_350_0/1549e7f6b5150c56d5b3cb67feaf8016.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
-          description: 'Онлайн',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Malika',
+          description: "Tomoq yallig'lanishi",
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: 'Davolash uchun',
         },
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/484/350_350_0/48422d8174bd00e89987e787e187d3ad.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
-          description: 'Онлайн',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Nigina',
+          description: "Tomoq yallig'lanishi",
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: "O'qishi uchun",
         },
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/154/350_350_0/1549e7f6b5150c56d5b3cb67feaf8016.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
-          description: 'Онлайн',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Jamila',
+          description: "Tomoq yallig'lanishi",
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: 'Oziq-ovqat',
         },
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/484/350_350_0/48422d8174bd00e89987e787e187d3ad.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Anora',
           description: 'Онлайн',
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: 'Oqish uchun',
         },
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/154/350_350_0/1549e7f6b5150c56d5b3cb67feaf8016.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
-          description: 'Онлайн',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Alisha',
+          description: "Tomoq yallig'lanishi",
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: 'Davolanish uchun',
         },
         {
           url: '#',
-          image:
-            'https://pm.expert/upload/resize_cache/iblock/484/350_350_0/48422d8174bd00e89987e787e187d3ad.jpg',
-          title:
-            'Онлайн формат - курс Управление проектами на основе стандарта PMI P...',
-          description: 'Онлайн',
+          image: require('@/static/img/help/list/hospital.jpg'),
+          title: 'Malika',
+          description: "Tomoq yallig'lanishi",
           dates: ['12 мая 2021, Среда', '24 мая 2021, Понедельник'],
-          type: 'Основы управления проектами',
+          type: 'Davolanish uchun',
         },
       ],
     }

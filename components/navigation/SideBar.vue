@@ -6,49 +6,24 @@
           <a class="" target="" href="/trainings/new-programs/">Новинки</a>
         </li>
         <li class="active">
-          <a class="active" target="" href="/trainings/distants/"
-            >Дистанционные курсы</a
-          >
+          <a class="active" target="" href="/trainings/distants/">{{
+            $t('help.clean_water')
+          }}</a>
         </li>
         <li class=" ">
-          <a class="" target="" href="/trainings/online/"
-            >Курсы в онлайн формате</a
-          >
+          <a class="" target="" href="/trainings/online/">{{
+            $t('help.healthy_food')
+          }}</a>
         </li>
         <li class=" ">
-          <a class="" target="" href="/trainings/distant-learning-courses/"
-            >Курсы в формате удаленного присутствия</a
-          >
+          <a class="" target="" href="/trainings/distant-learning-courses/">{{
+            $t('help.education')
+          }}</a>
         </li>
         <li class=" ">
-          <a class="" target="" href="/trainings/basic-pm-corses/"
-            >Основы управления проектами</a
-          >
-        </li>
-        <li class=" ">
-          <a class="" target="" href="/trainings/webinars/"
-            >Обучающие вебинары с PDU</a
-          >
-        </li>
-        <li class=" ">
-          <a class="" target="" href="/trainings/keycompetences/"
-            >Ключевые компетенции в управлении проектами</a
-          >
-        </li>
-        <li class=" ">
-          <a class="" target="" href="/trainings/pmtools/"
-            >Курсы Microsoft Project и Oracle Primavera</a
-          >
-        </li>
-        <li class=" ">
-          <a class="" target="" href="/trainings/master-classes/"
-            >Мастер-классы по управлению проектами</a
-          >
-        </li>
-        <li class=" ">
-          <a class="" target="" href="/trainings/soft-skills/"
-            >Личностные навыки проектного менеджера</a
-          >
+          <a class="" target="" href="/trainings/basic-pm-corses/">{{
+            $t('help.medical')
+          }}</a>
         </li>
       </ul>
     </aside>

@@ -96,14 +96,14 @@ export default [
         i18n: 'menu.certification_pme',
       },
       {
-        title: 'PM тест он-лайн',
+        title: 'Test',
         url: 'about',
         i18n: 'menu.pm_test',
       },
     ],
   },
   {
-    title: 'PMC',
+    title: '-',
     url: 'trainings',
     i18n: 'menu.pmc',
   },

@@ -17,57 +17,36 @@
         <div class="content">
           <div class="text">
             <p></p>
-            <p style="text-align: justify">
-              <b>Тренер-практик</b>, обладающий более чем&nbsp;22 летним опытом
-              управления проектами&nbsp;и тренерской работы. Основные
-              направления работы: Внедрение информационных систем управления
-              проектами, включая разработку методологии, развёртывание,
-              настройка и поддержка. Проведение тренингов по разработке и
-              актуализации план-графиков и использованию конкретных ИСУП.
-              <b>Платформы:</b> Oracle Primavera EPPM, Microsoft Project/Project
-              Server, Oracle Primavera Risk Analysis, Palisade @Risk, Advanta.
+            <p style="text-align: justify">Batafsil ma'lumot</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              asperiores blanditiis commodi consequatur cum doloremque dolores
+              ipsam iste itaque laudantium libero nihil non perspiciatis
+              possimus provident, recusandae sint suscipit veniam.
             </p>
             <p>
-              <b>Сертификаты Oracle:</b>
-            </p>
-            <p>General Product Support Specialist</p>
-            <p>
-              Oracle Business Intelligence Foundation Suite 11g PreSales
-              Specialist
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              asperiores blanditiis commodi consequatur cum doloremque dolores
+              ipsam iste itaque laudantium libero nihil non perspiciatis
+              possimus provident, recusandae sint suscipit veniam.
             </p>
             <p>
-              Oracle Business Intelligence Foundation Suite 11g Sales Specialist
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              asperiores blanditiis commodi consequatur cum doloremque dolores
+              ipsam iste itaque laudantium libero nihil non perspiciatis
+              possimus provident, recusandae sint suscipit veniam.
             </p>
             <p>
-              Primavera P6 Enterprise Project Portfolio Management 8
-              Implementation Specialist
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              asperiores blanditiis commodi consequatur cum doloremque dolores
+              ipsam iste itaque laudantium libero nihil non perspiciatis
+              possimus provident, recusandae sint suscipit veniam.
             </p>
             <p>
-              Primavera P6 Enterprise Project Portfolio Management 8 PreSales
-              Specialist
-            </p>
-            <p>
-              Primavera P6 Enterprise Project Portfolio Management 8 Sales
-              Specialist
-            </p>
-            <p>
-              <b>Сертификаты Microsoft:</b>
-            </p>
-            <p>
-              Microsoft Certified Technology Specialist: Enterprise Project
-              Management with Microsoft Office Project Server 2007;
-            </p>
-            <p>
-              Microsoft Certified Technology Specialist: Microsoft Office
-              Project;
-            </p>
-            <p>
-              Microsoft Certified Technology Specialist (MCTS): Managing
-              Projects with Microsoft Project 2010;
-            </p>
-            <p>
-              Microsoft Specialist: Managing Project and Portfolios with Project
-              Server 2013
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              asperiores blanditiis commodi consequatur cum doloremque dolores
+              ipsam iste itaque laudantium libero nihil non perspiciatis
+              possimus provident, recusandae sint suscipit veniam.
             </p>
           </div>
         </div>
@@ -81,7 +60,7 @@ export default {
   layout: 'page',
   data() {
     return {
-      title: 'Тренеры компании PM Expert',
+      title: 'Homiylar',
       members,
     }
   },

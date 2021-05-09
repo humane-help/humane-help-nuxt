@@ -14,7 +14,10 @@
             {{ element }}
           </span>
         </div>
+        <h6>Нужен: 2.260.000 sum</h6>
+        <b-progress :value="25" variant="success" height="7px"></b-progress>
       </b-card-body>
+
       <div class="card-horizontal--sub">{{ item.type }}</div>
     </div>
   </b-card>
