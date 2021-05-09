@@ -1,7 +1,7 @@
 <template>
   <section class="programs page-background">
-    <card-template title="Ближайшие курсы">
-      <b-col md="12" v-for="item in list" :key="item.url">
+    <card-template title="Проведенный курсы">
+      <b-col v-for="item in list" :key="item.url" md="12">
         <card-horizontal :item="item" />
       </b-col>
     </card-template>

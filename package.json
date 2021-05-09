@@ -11,6 +11,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@nuxtjs/google-tag-manager": "^2.3.2",
     "@nuxtjs/router": "^1.6.1",
     "@nuxtjs/style-resources": "^1.0.0",
     "bootstrap": "^4.6.0",

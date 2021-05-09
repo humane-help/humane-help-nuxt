@@ -1,10 +1,10 @@
 <template>
   <section class="media-block">
     <card-template
-      title="Направления обучения"
+      title="Наши услуги"
       :action="{ title: 'Все услуги', link: '/cabinet/news/' }"
     >
-      <b-col md="6" v-for="item in list" :key="item.title">
+      <b-col v-for="item in list" :key="item.title" md="6">
         <card-horizontal :item="item" />
       </b-col>
     </card-template>

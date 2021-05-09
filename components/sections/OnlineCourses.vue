@@ -1,7 +1,7 @@
 <template>
   <section class="online-courses page-background">
     <b-container>
-      <h3 class="online-courses-section-title">Дистанционные курсы</h3>
+      <h3 class="online-courses-section-title">Новости</h3>
     </b-container>
     <div class="online-courses--slider">
       <VueSlickCarousel v-bind="settings">

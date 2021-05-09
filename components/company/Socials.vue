@@ -10,7 +10,7 @@
       <b-icon-youtube />
     </a>
     <a href="#" target="_blank">
-      <b-icon-twitter />
+      <b-icon-cursor />
     </a>
   </div>
 </template>

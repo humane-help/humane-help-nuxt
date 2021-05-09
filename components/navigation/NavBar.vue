@@ -9,11 +9,12 @@
               <logo />
             </nuxt-link>
           </b-col>
-          <b-col lg="9" sm="0" cols="0" class="links">
+          <b-col lg="7" sm="0" cols="0" class="links">
             <nav-links />
           </b-col>
-          <b-col lg="1" sm="9" cols="6" class="icons">
-            <b-icon-search />
+
+          <b-col lg="3" sm="9" cols="6" class="icons">
+            <input type="text" class="search-input" /><b-icon-search />
             <mobile-menu />
           </b-col>
         </b-row>
@@ -85,5 +86,12 @@ export default {
 }
 .icons {
   text-align: right;
+}
+.search-input {
+  height: 23px;
+  border-radius: 18px;
+  margin-right: 4px;
+  border: solid #666666 0.5px;
+  width: 92%;
 }
 </style>

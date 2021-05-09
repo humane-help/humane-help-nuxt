@@ -53,6 +53,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
+    ['@nuxtjs/google-tag-manager', { id: process.env.GTM_CODE }],
   ],
 
   bootstrapVue: {

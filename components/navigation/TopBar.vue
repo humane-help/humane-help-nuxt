@@ -6,9 +6,17 @@
         <div class="phone">
           <b-icon-phone class="phone--icon" />
           <a class="phone--text" href="tel:+998712000833">+998 71 200-08-33</a>
+          &nbsp;|&nbsp;
+          <b-icon-chat-left-text class="chat-left-text--icon" />
+          <a
+            class="phone--text"
+            target="_blank"
+            href="https://t.me/mirjamolmamatov"
+            >Напишите нам в Телеграм</a
+          >
         </div>
         <div class="page-links">
-          <a href="/about">О Компании</a>
+          <a href="/about">О Компании</a>&nbsp;|&nbsp;
           <a href="/contacts">Контакты</a>
         </div>
       </div>

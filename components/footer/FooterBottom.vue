@@ -3,6 +3,7 @@
     <b-container>
       <b-row>
         <b-col md="3" cols="12">
+          <logo />
           <h5 class="footer-bottom--title">Наши контакты</h5>
           <div class="footer-bottom--contact">
             <b-icon-phone />
@@ -24,6 +25,9 @@
             <a class="mail--text" href="mailto:info@pmexpert.uz"
               >info@pmexpert.uz</a
             >
+          </div>
+          <div class="footer-bottom--contact">
+            <socials class="my-3" />
           </div>
         </b-col>
         <b-col md="9" cols="12">

@@ -23,6 +23,10 @@ export default [
         title: 'Проведённые курсы',
         url: 'about',
       },
+      {
+        title: 'Тренеры',
+        url: 'members',
+      },
     ],
   },
   {
@@ -95,9 +99,5 @@ export default [
         title: 'Аутсорсинг',
       },
     ],
-  },
-  {
-    title: 'Тренеры',
-    url: 'members',
   },
 ]

@@ -11,7 +11,7 @@
       и эффективными.
     </p>
     <b-row>
-      <b-col md="4" sm="6" v-for="item in members" :key="item.id">
+      <b-col v-for="item in members" :key="item.id" md="4" sm="6">
         <card-second :item="item" />
       </b-col>
     </b-row>

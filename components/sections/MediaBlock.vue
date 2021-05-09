@@ -1,8 +1,8 @@
 <template>
   <section class="media-block">
     <card-template
-      title="Медиацентр"
-      :action="{ title: 'Все материалы', link: '/cabinet/news/' }"
+      title="Курсы"
+      :action="{ title: 'Все курсы', link: '/cabinet/news/' }"
     >
       <b-col
         v-for="(item, key) in list"
