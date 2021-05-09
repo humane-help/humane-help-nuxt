@@ -1,5 +1,5 @@
 <template>
-  <div class="tap-top top-cls" @click="scrollToTop()">
+  <div v-if="false" class="tap-top top-cls" @click="scrollToTop()">
     <div>
       <a href="javascript:void(0)" style="color: white">
         <svg

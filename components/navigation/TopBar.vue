@@ -4,9 +4,6 @@
       <div class="topbar--content">
         <company-address />
         <div class="phone">
-          <b-icon-phone class="phone--icon" />
-          <a class="phone--text" href="tel:+998937077371">+998 93 707 73 71</a>
-          &nbsp;|&nbsp;
           <b-icon-chat-left-text class="chat-left-text--icon" />
           <a
             class="phone--text"
@@ -16,8 +13,6 @@
           >
         </div>
         <div class="page-links">
-          <a href="/about">{{ $t('menu.about_company') }}</a
-          >&nbsp;|&nbsp;
           <a href="/contacts">{{ $t('menu.contacts') }}</a>
           &nbsp;&nbsp;
           <a href="javascript:void(0)" @click="changeLang('ru')">RU</a
@@ -41,10 +36,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 .topbar {
-  background: var(--dark);
+  background: linear-gradient(-45deg, #3f51b5 0%, #3f51b5 33%, #03a9f4 100%);
   color: var(--white);
   font-size: 13px;
-  line-height: 18px;
+  line-height: 14px;
   @include sm-down() {
     display: none;
   }
@@ -52,7 +47,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 41px;
+    min-height: 28px;
   }
   a {
     color: var(--white);

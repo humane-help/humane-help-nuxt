@@ -81,7 +81,7 @@ export default {
   }
 }
 .spacer {
-  height: 120px;
+  height: 100px;
   @include md-down() {
     height: 90px;
   }
