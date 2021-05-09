@@ -1,11 +1,6 @@
 <template>
   <div>
-    <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      class="about-banner"
-      :interval="4000"
-    >
+    <b-carousel id="carousel-1" class="about-banner" :interval="4000">
       <b-carousel-slide>
         <template #img>
           <div

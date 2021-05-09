@@ -1,7 +1,7 @@
 <template>
   <section class="partners">
     <b-container>
-      <h3 class="partners-section-title">Наши клиенты</h3>
+      <h3 class="partners-section-title">{{ $t('partners.title') }}</h3>
       <VueSlickCarousel v-bind="settings">
         <a
           v-for="item in items"

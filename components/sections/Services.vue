@@ -1,8 +1,8 @@
 <template>
   <section class="media-block">
     <card-template
-      title="Наши услуги"
-      :action="{ title: 'Все услуги', link: '/cabinet/news/' }"
+      :title="$t('services.title')"
+      :action="{ title: $t('services.all_services'), link: '/cabinet/news/' }"
     >
       <b-col v-for="item in list" :key="item.title" md="6">
         <card-horizontal :item="item" />

@@ -1,0 +1,72 @@
+{
+  "top-bar": {
+    "write_telegram": "Telegramimizga yozing"
+  },
+  "menu": {
+    "about_company": "Kompaniya haqida",
+    "mission": "Missiya",
+    "experience": "Tajriba",
+    "history": "Tariximiz",
+    "facts": "Faqat faktlar",
+    "education": "Ta'lim",
+    "trainers": "Treynerlar",
+    "certification_pme": "PME sertifikati",
+    "pm_test": "Onlayn PM testi",
+    "pmc": "PMS",
+    "services": "Xizmatlar",
+    "what_is_pmc": "PMS nima?",
+    "team": "Komanda",
+    "consulting": "Konsalting",
+    "outsourcing": "Autsorsing",
+    "other_services": "Boshqa xizmatlar",
+    "pmc_excellence": "PM Excellence",
+    "certification": "Sertifikatlash va testlash",
+    "program_order": "Maxsus dasturlar",
+    "simulation_games": "Simulyatsion biznes o'yinlari",
+    "distance_courses": "Loyihani boshqarish bo'yicha masofaviy o'qitish kurslari",
+    "basis_project_management": "Loyihalarni boshqarish asoslari",
+    "finished_courses": "Kurslar o'tkazildi",
+    "contacts": "Kontaktlar"
+  },
+  "address": {
+    "city": "Toshkent",
+    "address": "100060, Toshkent sh., Nukus ko'chasi, 4-uy, 1-proyezd"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "detail": "Batafsil",
+    "about_company": "PM Expert kompaniyasi haqida",
+    "company": "Kompaniya",
+    "company_mission": "Kelajak unikal bilimlar ortida: innovatsion g'oyalar, yangi yondashuvlar, loyihalarni boshqarish usullari va strategiyalari",
+    "content": "PM Expert O'zbekistondagi va Rossiyadagi loyihalarni boshqarish va menejerlarni sertifikatlashtirish sohasida yetakchi hisoblanadi, shuningdek quyidagi yo'nalishlarda loyihalarni boshqarish, dasturlar va loyihalar portfellari bo'yicha professional xizmatlarni taqdim etadi: autsorsing (mijozlar loyihalarini tashqi boshqarish), konsalting (loyihani amalga oshirish) mijozning kompaniyasida boshqarish), o'qitish (loyihalarni boshqarish bo'yicha yuzma-yuz va masofaviy treninglar) va sertifikatlashtirish (mutaxassislarni baholash va kompaniyalardagi loyihalarni boshqarish tizimlarining auditi).",
+    "description": "PM Expert-da loyiha menejmenti bo'yicha mutaxassislarni sertifikatlash va testlash"
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar"
+  },
+  "course": {
+    "title": "Kurslar",
+    "all_courses": "Barcha kurslar"
+  },
+  "news": {
+    "title": "Yangiliklarimiz",
+    "all_news": "Barcha yangiliklar"
+  },
+  "services": {
+    "title": "Bizning xizmatlarimiz",
+    "all_services": "Barcha xizmatlar"
+  },
+  "finished_courses": {
+    "title": "O'tkazilgan kurslar",
+    "all_finished_courses": "Barcha o'tkazilgan kurslar"
+  },
+  "partners": {
+    "title": "Bizning partnerlarimiz"
+  },
+  "footer": {
+    "our_contacts": "Biz bilan bog'lanish",
+    "know_first": "Birinchilardan xabardor bo'ling",
+    "subscribe_text": "Eng qiziqarli voqealar, yangi kurslar, aktsiyalar va chegirmalar haqida ma'lumot olish uchun obuna bo'ling.",
+    "subscribe_news": "Obuna bo'lish"
+  }
+}

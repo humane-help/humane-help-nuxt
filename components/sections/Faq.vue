@@ -1,6 +1,6 @@
 <template>
   <div class="faq">
-    <h3 class="mb-3">Часто задаваемые вопросы:</h3>
+    <h3 class="mb-3">{{ $t('faq.title') }}:</h3>
     <div class="accordion">
       <div
         v-for="(item, key) in list"

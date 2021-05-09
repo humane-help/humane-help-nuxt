@@ -58,4 +58,13 @@ export const courseRoutes = [
       breadcrumb: [{ text: 'Главная', name: 'home' }, { text: 'Тренеры' }],
     },
   },
+  {
+    path: '*',
+    component: load('NotFound'),
+    name: 'not_found',
+    notChangePath: true,
+    meta: {
+      title: 'Not found',
+    },
+  },
 ]

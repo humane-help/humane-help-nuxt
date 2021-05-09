@@ -51,6 +51,34 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
+    [
+      'nuxt-i18n',
+      {
+        seo: true,
+        locales: [
+          {
+            code: 'ru',
+            iso: 'ru-RU',
+            name: 'Русский',
+            file: 'ru.json'
+          },
+          {
+            code: 'uz',
+            iso: 'uz-UZ',
+            name: "O'zbekcha",
+            file: 'uz.json'
+          }
+        ],
+        detectBrowserLanguage: {
+          useCookie: false,
+          cookieKey: 'i18n_redirected'
+        },
+        defaultLocale: 'ru',
+        lazy: true,
+        langDir: 'static/lang/',
+        fallbackLocale: ['ru', 'uz']
+      }
+    ],
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
     ['@nuxtjs/google-tag-manager', { id: process.env.GTM_CODE }],

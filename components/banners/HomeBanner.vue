@@ -2,7 +2,6 @@
   <div>
     <b-carousel
       id="carousel-1"
-      v-model="slide"
       class="home-banner"
       :interval="4000"
       indicators

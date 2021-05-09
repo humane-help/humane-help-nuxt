@@ -3,15 +3,14 @@
     <b-container>
       <b-row>
         <b-col md="3">
-          <h5 class="footer-top--title">Узнавайте первым</h5>
+          <h5 class="footer-top--title">{{ $t('footer.know_first') }}</h5>
           <p class="footer-top--description">
-            Подпишитесь, чтобы получать информацию о самых интересных событиях,
-            новых курсах, акциях и скидках.
+            {{ $t('footer.subscribe_text') }}
           </p>
           <hr />
           <socials class="my-3" />
           <a href="/company/" class="btn btn-primary mt-6 footer-top--btn">
-            Подписка на рассылку
+            {{ $t('footer.subscribe_news') }}
           </a>
         </b-col>
         <b-col md="9">

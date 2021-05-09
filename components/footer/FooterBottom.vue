@@ -4,7 +4,7 @@
       <b-row>
         <b-col md="3" cols="12">
           <logo />
-          <h5 class="footer-bottom--title">Наши контакты</h5>
+          <h5 class="footer-bottom--title">{{ $t('footer.our_contacts') }}</h5>
           <div class="footer-bottom--contact">
             <b-icon-phone />
             <a class="phone--text" href="tel:+998712000833"
@@ -15,9 +15,7 @@
             <b-icon-geo />
             <a href="#">
               <span class="address--city"> Ташкент </span>
-              <span class="address--street">
-                100060, г.Ташкент, 1-проезд ул.Нукус, д.4</span
-              >
+              <span class="address--street"> {{ $t('address.address') }}</span>
             </a>
           </div>
           <div class="footer-bottom--contact">
@@ -33,13 +31,13 @@
         <b-col md="9" cols="12">
           <b-row>
             <b-col v-for="item in menu" :key="item.title" md="4" cols="6">
-              <h5 class="footer-bottom--title">{{ item.title }}</h5>
+              <h5 class="footer-bottom--title">{{ $t(item.i18n) }}</h5>
               <a
                 v-for="child in item.children"
                 :key="child.title"
                 class="d-block footer-bottom--link"
                 :href="child.url"
-                >{{ child.title }}</a
+                >{{ $t(child.i18n) }}</a
               >
             </b-col>
           </b-row>

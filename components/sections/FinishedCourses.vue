@@ -1,6 +1,6 @@
 <template>
   <section class="programs page-background">
-    <card-template title="Проведенный курсы">
+    <card-template :title="$t('finished_courses.title')">
       <b-col v-for="item in list" :key="item.url" md="12">
         <card-horizontal :item="item" />
       </b-col>

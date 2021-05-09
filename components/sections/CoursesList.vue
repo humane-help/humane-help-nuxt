@@ -1,8 +1,8 @@
 <template>
   <section class="media-block">
     <card-template
-      title="Курсы"
-      :action="{ title: 'Все курсы', link: '/cabinet/news/' }"
+      :title="$t('menu.education')"
+      :action="{ title: $t('course.all_courses'), link: '/cabinet/news/' }"
     >
       <b-col
         v-for="(item, key) in list"

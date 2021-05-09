@@ -32,7 +32,7 @@ export default {
   mixins: [PagesMixin],
   data() {
     return {
-      title: 'О компании PM Expert',
+      title: this.$t('about.about_company'),
     }
   },
 }
