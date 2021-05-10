@@ -10,19 +10,9 @@ export default [
         i18n: 'menu.mission',
       },
       {
-        title: 'Опыт',
-        url: 'about',
-        i18n: 'menu.experience',
-      },
-      {
         title: 'История',
         url: 'about',
         i18n: 'menu.history',
-      },
-      {
-        title: 'Только факты',
-        url: 'about',
-        i18n: 'menu.facts',
       },
       {
         title: 'Тренеры',
@@ -52,7 +42,7 @@ export default [
         i18n: 'help.education',
       },
       {
-        title: 'Программы на заказ',
+        title: 'Medical',
         url: 'courses',
         i18n: 'help.medical',
       },
@@ -67,21 +57,6 @@ export default [
         title: 'Основы управления проектами',
         url: 'courses',
         i18n: 'menu.basis_project_management',
-      },
-      {
-        title: 'Дистанционные курсы по управлению проектами',
-        url: 'courses',
-        i18n: 'menu.distance_courses',
-      },
-      {
-        title: 'Симуляционные деловые игры',
-        url: 'courses',
-        i18n: 'menu.simulation_games',
-      },
-      {
-        title: 'Программы на заказ',
-        url: 'courses',
-        i18n: 'menu.program_order',
       },
     ],
   },
