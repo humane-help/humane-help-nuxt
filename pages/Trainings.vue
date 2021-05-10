@@ -25,7 +25,7 @@ export default {
   layout: 'leftsided',
   data() {
     return {
-      title: 'Дистанционные курсы по управлению проектами',
+      title: 'Транзакции',
       list: [
         {
           image:

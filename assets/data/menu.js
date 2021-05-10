@@ -32,7 +32,7 @@ export default [
         i18n: 'help.clean_water',
       },
       {
-        title: 'Дистанционные курсы по управлению проектами',
+        title: 'Транзакции',
         url: 'courses',
         i18n: 'help.healthy_food',
       },
