@@ -19,7 +19,7 @@ export default {
           url: '/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '-',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '...',
           links: [
             {
               url: '#',
@@ -35,7 +35,7 @@ export default {
           url: '/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '-',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '----...',
           links: [
             {
               url: '#',
@@ -53,7 +53,7 @@ export default {
           url: '/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '-',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '----...',
           links: [
             {
               url: '#',
@@ -71,7 +71,7 @@ export default {
           url: '/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '-',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '----...',
           links: [
             {
               url: '#',
@@ -89,7 +89,7 @@ export default {
           url: '/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '-',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '----...',
           links: [
             {
               url: '#',
@@ -107,7 +107,7 @@ export default {
             'https://pm.expert/media/news/obyavlyaem-itogi-rozygrysha-prizov/',
           image: require('@/static/img/help/list/hospital.jpg'),
           title: '---',
-          description: 'Базовые курсы по управлению проектами по стандарту...',
+          description: '----...',
           links: [
             {
               url: '#',
