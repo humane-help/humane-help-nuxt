@@ -1,9 +1,6 @@
 <template>
   <div>
-    <nav-bar />
+    <main-header />
     <Nuxt />
-    <pages-footer />
-    <animated-block />
-    <to-top />
   </div>
 </template>

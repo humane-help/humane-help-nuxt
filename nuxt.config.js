@@ -16,10 +16,68 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: '/assets/js/bootstrap.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/jquery-1.12.4.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/owl.carousel.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/slick.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/popper.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/wow.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/jquery.magnific-popup.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/jquery.meanmenu.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: '/assets/js/active.js',
+        type: 'text/javascript',
+        body: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/scss/main.scss'],
+  css: [
+    '@/assets/css/bootstrap.min.css',
+    '@/assets/css/owl.carousel.min.css',
+    '@/assets/css/owl.theme.default.min.css',
+    '@/assets/css/animate.css',
+    '@/assets/css/flaticon.css',
+    '@/assets/css/magnific-popup.css',
+    '@/assets/css/slick.css',
+    '@/assets/css/meanmenu.css',
+    '@/assets/css/style.css',
+    '@/assets/css/responsive.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -37,6 +95,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/fontawesome',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     [
@@ -60,24 +119,24 @@ export default {
             code: 'ru',
             iso: 'ru-RU',
             name: 'Русский',
-            file: 'ru.json'
+            file: 'ru.json',
           },
           {
             code: 'uz',
             iso: 'uz-UZ',
             name: "O'zbekcha",
-            file: 'uz.json'
-          }
+            file: 'uz.json',
+          },
         ],
         detectBrowserLanguage: {
           useCookie: false,
-          cookieKey: 'i18n_redirected'
+          cookieKey: 'i18n_redirected',
         },
-        defaultLocale: 'ru',
+        defaultLocale: 'uz',
         lazy: true,
         langDir: 'static/lang/',
-        fallbackLocale: ['ru', 'uz']
-      }
+        fallbackLocale: ['ru', 'uz'],
+      },
     ],
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
@@ -95,5 +154,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extractCSS: true
+  },
 }
