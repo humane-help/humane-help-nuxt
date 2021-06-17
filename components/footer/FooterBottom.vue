@@ -1,50 +1,12 @@
 <template>
-  <section class="footer-bottom">
-    <b-container>
-      <b-row>
-        <b-col md="3" cols="12">
-          <logo />
-          <h5 class="footer-bottom--title">{{ $t('footer.our_contacts') }}</h5>
-          <div class="footer-bottom--contact">
-            <b-icon-phone />
-            <a class="phone--text" href="tel:+998937077371"
-              >+998 93 707 73 71</a
-            >
-          </div>
-          <div class="footer-bottom--contact my-3">
-            <b-icon-geo />
-            <a href="#">
-              <span class="address--city"> Ташкент </span>
-              <span class="address--street"> {{ $t('address.address') }}</span>
-            </a>
-          </div>
-          <div class="footer-bottom--contact">
-            <b-icon-envelope />
-            <a class="mail--text" href="mailto:info@humane.uz"
-              >info@humane.uz</a
-            >
-          </div>
-          <div class="footer-bottom--contact">
-            <socials class="my-3" />
-          </div>
-        </b-col>
-        <b-col md="9" cols="12">
-          <b-row>
-            <b-col v-for="item in menu" :key="item.title" md="4" cols="6">
-              <h5 class="footer-bottom--title">{{ $t(item.i18n) }}</h5>
-              <a
-                v-for="child in item.children"
-                :key="child.title"
-                class="d-block footer-bottom--link"
-                :href="child.url"
-                >{{ $t(child.i18n) }}</a
-              >
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-    </b-container>
-  </section>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>
+        &copy; 2021
+        <a href="#" target="_new" title="#">site.com</a>
+      </p>
+    </div>
+  </div>
 </template>
 <script>
 import menu from '@/assets/data/menu'

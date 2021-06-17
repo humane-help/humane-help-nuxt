@@ -62,7 +62,7 @@ a.meanmenu-reveal{
   color:#32004b;
   border-top:1px solid #dbeefd;
   text-decoration:none;
-  text-transform:capitalize;
+   /*text-transform:capitalize;*/
   font-family:lato,sans-serif;
   font-weight:700
 }
@@ -80,7 +80,7 @@ a.meanmenu-reveal{
   visibility:visible;
   text-transform:none;
   font-size:14px;
-  text-transform:capitalize;
+   /*text-transform:capitalize;*/
   font-weight:700
 }
 .mean-container .mean-nav ul li.mean-last a{
@@ -174,7 +174,7 @@ a.meanmenu-reveal{
   font-weight:900;
   font-size:16px;
   font-family:lato,sans-serif;
-  text-transform:capitalize;
+   /*text-transform:capitalize;*/
   color:#393d72;
   padding-left:0;
   padding-right:0;
@@ -219,7 +219,7 @@ a.meanmenu-reveal{
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a{
   font-size:15px;
   font-weight:600;
-  text-transform:capitalize;
+   /*text-transform:capitalize;*/
   padding:12px 15px;
   margin:0;
   display:block;

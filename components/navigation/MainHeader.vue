@@ -14,10 +14,10 @@
           <div class="row">
             <div class="col-lg-8">
               <ul class="head-top-list">
-                <li>
-                  <i class="fa fa-clock-o"></i>
-                  Du-Yak 9.00-17.00
-                </li>
+                <!--                <li>-->
+                <!--                  <i class="fa fa-clock-o"></i>-->
+                <!--                  Du-Yak 9.00-17.00-->
+                <!--                </li>-->
                 <li>
                   <a href="tel:+998998117371">
                     <i class="fa fa-envelope"></i>
@@ -30,31 +30,36 @@
                     <span class="__cf_email__">support@humane.uz</span>
                   </a>
                 </li>
+                <li>
+                  <div class="phone">
+                    <img
+                      :src="require('../../assets/img/telegram.svg')"
+                      alt="tg"
+                    />
+                    <a
+                      class="phone--text"
+                      target="_blank"
+                      href="https://t.me/davron112"
+                      >{{ $t('top-bar.write_telegram') }}</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="page-links">
+                    <a href="/contacts">{{ $t('menu.contacts') }}</a>
+                    &nbsp;&nbsp;
+                    <a href="javascript:void(0)" @click="changeLang('ru')">RU</a
+                    >&nbsp;|&nbsp;
+                    <a href="javascript:void(0)" @click="changeLang('uz')"
+                      >UZ</a
+                    >
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="col-lg-4">
               <div class="social-link">
                 <ul>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-facebook-logo"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-twitter-black-shape"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-linkedin-letters"></i>
-                    </a>
-                  </li>
                   <li>
                     <a
                       href="#modalCart"
@@ -73,18 +78,18 @@
 
       <div class="navbar-area">
         <div class="mobile-nav menu-shrink">
-          <a href="index.html" class="logo">
+          <nuxt-link :to="{ name: 'home' }" class="logo">
             <img src="assets/img/logo/logo.png" alt="Image" />
-          </a>
+          </nuxt-link>
         </div>
 
         <div class="main-nav">
           <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
               <div class="logo">
-                <a class="navbar-brand" href="index.html">
+                <nuxt-link :to="{ name: 'home' }" class="navbar-brand">
                   <img src="assets/img/logo/logo.png" alt="Logo" />
-                </a>
+                </nuxt-link>
               </div>
               <div
                 id="navbarSupportedContent"
@@ -92,168 +97,85 @@
               >
                 <ul class="navbar-nav m-auto">
                   <li class="nav-item">
-                    <a href="about.html" class="nav-link">Biz haqimizda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">Pages</a>
+                    <a href="about.html" class="nav-link"> О фонде </a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
+                        <a href="about.html" class="nav-link"> Миссия </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">services</a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="services.html" class="nav-link"
-                              >services</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="service-details.html" class="nav-link"
-                              >services details</a
-                            >
-                          </li>
-                        </ul>
+                        <a href="about.html" class="nav-link"> История </a>
                       </li>
                       <li class="nav-item">
-                        <a href="event.html" class="nav-link">event</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="pricing.html" class="nav-link">pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="team.html" class="nav-link">Team</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">blog</a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="blog.html" class="nav-link">blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="blog-left-sidebar.html" class="nav-link"
-                              >blog left sidebar</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="blog-right-sidebar.html" class="nav-link"
-                              >blog right sidebar</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="blog-details.html" class="nav-link"
-                              >blog details</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">shop</a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="shop.html" class="nav-link">shop</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="shop-left-sidebar.html" class="nav-link"
-                              >shop left sidebar</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="shop-right-sidebar.html" class="nav-link"
-                              >shop right sidebar</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="shop-details.html" class="nav-link"
-                              >shop details</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="cart.html" class="nav-link">cart</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a href="program-details.html" class="nav-link"
-                          >program details</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="faq.html" class="nav-link">FAQ</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="404.html" class="nav-link">404</a>
+                        <a href="about.html" class="nav-link">
+                          Наши портнеры
+                        </a>
                       </li>
                     </ul>
                   </li>
+
                   <li class="nav-item">
-                    <a href="pricing.html" class="nav-link">pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="team.html" class="nav-link">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">blog</a>
+                    <a href="#" class="nav-link">Помощь</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="blog.html" class="nav-link">blog</a>
+                        <a href="about.html" class="nav-link">
+                          Для чистой воды
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="blog-left-sidebar.html" class="nav-link"
-                          >blog left sidebar</a
-                        >
+                        <a href="about.html" class="nav-link">
+                          Для чистой воды
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="blog-right-sidebar.html" class="nav-link"
-                          >blog right sidebar</a
-                        >
+                        <a href="about.html" class="nav-link">
+                          Для медицинской помощи
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="blog-details.html" class="nav-link"
-                          >blog details</a
-                        >
+                        <a href="about.html" class="nav-link">
+                          Для образования
+                        </a>
                       </li>
                     </ul>
                   </li>
+
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">shop</a>
+                    <!--                    dropdown-toggle-->
+                    <a href="pricing.html" class="nav-link">Волонтеры</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="shop.html" class="nav-link">shop</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="shop-left-sidebar.html" class="nav-link"
-                          >shop left sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="shop-right-sidebar.html" class="nav-link"
-                          >shop right sidebar</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="shop-details.html" class="nav-link"
-                          >shop details</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="cart.html" class="nav-link">cart</a>
+                        <a href="about.html" class="nav-link">
+                          Список волонтеров
+                        </a>
                       </li>
                     </ul>
                   </li>
+
                   <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
+                    <nuxt-link to="/children" class="nav-link">
+                      Дети нуждающиеся в помощи
+                    </nuxt-link>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <nuxt-link to="/children" class="nav-link">
+                          Список нуждающихся детей
+                        </nuxt-link>
+                      </li>
+                    </ul>
                   </li>
+
+                  <li class="nav-item">
+                    <a href="team.html" class="nav-link"> Отчеты </a>
+                  </li>
+
                   <li class="nav-item">
                     <a class="nav-link" href=".html"
                       ><i class="fa fa-search"></i
                     ></a>
                   </li>
+
                   <li class="custom-button">
-                    <a href="#" class="custom-btn"> yordam olish </a>
+                    <a href="#" class="custom-btn"> Получить помощь </a>
                   </li>
                 </ul>
               </div>

@@ -23,11 +23,19 @@ export const courseRoutes = [
     },
   },
   {
-    path: '/trainings',
-    component: load('Trainings'),
-    name: 'trainings',
+    path: '/children',
+    component: load('ChildrenList'),
+    name: 'children',
     meta: {
-      breadcrumb: [{ text: 'Главная', name: 'home' }, { text: 'Обучение' }],
+      breadcrumb: [{ text: 'Главная', name: 'home' }],
+    },
+  },
+  {
+    path: '/children-detail/:id',
+    component: load('ChildrenListDetails'),
+    name: 'children-detail',
+    meta: {
+      breadcrumb: [{ text: 'Главная', name: 'home' }],
     },
   },
   {

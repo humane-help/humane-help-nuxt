@@ -84,5 +84,15 @@
     "know_first": "Birinchilardan xabardor bo'ling",
     "subscribe_text": "Eng qiziqarli voqealar, yangi kurslar, aktsiyalar va chegirmalar haqida ma'lumot olish uchun obuna bo'ling.",
     "subscribe_news": "Obuna bo'lish"
+  },
+  "texts": {
+    "water": "Toza suv uchun",
+    "water_text": "Zaharlangan suv diareya, vabo, dizenteriya, tifo va poliomiyelit kabi kasalliklarni yuqtirishga qodir. Hisob-kitoblarga ko'ra, ifloslangan ichimlik suvi yiliga 485,000 diareya o'limiga sabab bo'ladi...",
+    "eat": "Sog'lom ovqatlanish uchun",
+    "eat_text": "Sog'lom ovqatlanish butun hayot davomida to'yib ovqatlanmaslikning oldini oladi, shuningdek yuqumsiz kasalliklar (NCD) va sog'liq buzilishlarini oldini oladi...",
+    "education": "Ta'lim uchun",
+    "education_text": "Taxminan 1,4 million maktabgacha yoshdagi bolalar maktabgacha ta'lim muassasalarida emas; 2 million boshlang'ich va o'rta o'rta bolalar va taxminan 2,4 million yuqori o'rta o'spirinlar maktabdan tashqarida...",
+    "medical": "Tibbiy yordam uchun",
+    "medical_text": "Biz bolalar hayotini yaxshi tomonga o'zgartirmoqdamiz, bu bizning umumiy kelajagimizga o'z hissamizni qo'shayotganimizni anglatadi..."
   }
 }

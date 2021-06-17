@@ -101,13 +101,14 @@
                   <div class="col-md-6 col-lg-6">
                     <div class="single-slider">
                       <div class="slider-text">
-                        <h3>A Warm Nursing environment</h3>
                         <p>
-                          We understand the importance of finding quality day
-                          care center for little ones.
+                          Благотворительный фонд «Humane» создан с целью
+                          оказания помощи детям в возрасте до 18 лет
+                          (включительно) от заболеваний, с которыми способна
+                          справиться современная медицина.
                         </p>
                         <div class="custom-button">
-                          <a href="#" class="custom-btn"> learn more </a>
+                          <a href="#" class="custom-btn"> Подробнее </a>
                         </div>
                       </div>
                     </div>
@@ -149,13 +150,14 @@
                   <div class="col-md-6 col-lg-6">
                     <div class="single-slider">
                       <div class="slider-text">
-                        <h3>A Warm Nursing Envioronment</h3>
                         <p>
-                          We understand the importance of finding quality day
-                          care center for little ones.
+                          Благотворительный фонд «Humane» создан с целью
+                          оказания помощи детям в возрасте до 18 лет
+                          (включительно) от заболеваний, с которыми способна
+                          справиться современная медицина.
                         </p>
                         <div class="custom-button">
-                          <a href="#" class="custom-btn"> learn more </a>
+                          <a href="#" class="custom-btn"> Подробнее </a>
                         </div>
                       </div>
                     </div>
@@ -222,12 +224,12 @@
               <div class="image2">
                 <img src="assets/img/feature/ibg2.png" alt="Image" />
               </div>
-              <h3>Toza suv uchun</h3>
+              <h3>Для чистой воды</h3>
               <p>
-                Zaharlangan suv diareya, vabo, dizenteriya, tifo va poliomiyelit
-                kabi kasalliklarni yuqtirishga qodir. Hisob-kitoblarga ko'ra,
-                ifloslangan ichimlik suvi yiliga 485,000 diareya o'limiga sabab
-                bo'ladi...
+                Загрязненная вода может передавать заболевания, такие как
+                диарея, холера, дизентерия, брюшной тиф и полиомиелит. По
+                оценкам, загрязненная питьевая вода ежегодно выдает 485 000
+                случаев диарейной смерти.
               </p>
             </div>
           </div>
@@ -236,11 +238,12 @@
               <div class="image1">
                 <img src="assets/img/feature/ibg1.png" alt="Image" />
               </div>
-              <h3>Sog'lom ovqatlanish uchun</h3>
+              <h3>Для здорового питания</h3>
               <p>
-                Sog'lom ovqatlanish butun hayot davomida to'yib
-                ovqatlanmaslikning oldini oladi, shuningdek yuqumsiz kasalliklar
-                (NCD) va sog'liq buzilishlarini oldini oladi...
+                Здоровое питание на протяжении всей жизни способствует
+                профилактике неправильного питания во всех его формах, а также
+                целого ряда неинфекционных заболеваний (НИЗ) и нарушений
+                здоровья.
               </p>
             </div>
           </div>
@@ -249,12 +252,11 @@
               <div class="image4">
                 <img src="assets/img/feature/ibg3.png" alt="Image" />
               </div>
-              <h3>Ta'lim uchun</h3>
+              <h3>Для образования</h3>
               <p>
-                Taxminan 1,4 million maktabgacha yoshdagi bolalar maktabgacha
-                ta'lim muassasalarida emas; 2 million boshlang'ich va o'rta
-                o'rta bolalar va taxminan 2,4 million yuqori o'rta o'spirinlar
-                maktabdan tashqarida...
+                Примерно 1,4 миллиона детей дошкольного возраста не посещают
+                дошкольные учреждения; 2 миллиона детей возраста посещения
+                начальной школы и нижней ступени среднего образования....
               </p>
             </div>
           </div>
@@ -263,14 +265,189 @@
               <div class="image3">
                 <img src="assets/img/feature/ibg4.png" alt="Image" />
               </div>
-              <h3>Tibbiy yordam uchun</h3>
+              <h3>За медицинской помощью</h3>
               <p>
-                Biz bolalar hayotini yaxshi tomonga o'zgartirmoqdamiz, bu
-                bizning umumiy kelajagimizga o'z hissamizni qo'shayotganimizni
-                anglatadi...
+                Мы меняем жизнь детей к лучшему, а значит, делаем вклад в наше
+                общее будущее.
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-section pt-100 pb-100">
+      <div class="container">
+        <div class="section-title text-center">
+          <h6>Помощь детям</h6>
+          <h2>Дети нуждающиеся в помощи</h2>
+          <img src="assets/img/title-border.png" alt="Image" />
+        </div>
+        <div class="program-slider owl-carousel owl-theme">
+          <div class="single-program">
+            <div class="image">
+              <a href="program-details.html"
+                ><img src="assets/img/program/1.png" alt="Image"
+              /></a>
+            </div>
+            <div class="image-caption">
+              <div class="pr-content">
+                <a href="program-details.html"><h3>Милана Маркаева</h3></a>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do et dolore san lacus vel facilisis.
+                </p>
+                  <div style="padding-top: 10px">
+                    <div style="display: flex">
+                      <div>250 000 сум</div>
+                      <div class="total-price">1 000 000 сум</div>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 25%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        25%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pr-bottom">
+                <ul>
+                  <li>Возраст: <span>4 лет </span></li>
+                  <li>Регион: <span>Ташкент</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single-program">
+            <div class="image">
+              <a href="program-details.html"
+                ><img src="assets/img/program/2.png" alt="Image"
+              /></a>
+            </div>
+            <div class="image-caption">
+              <div class="pr-content">
+                <a href="program-details.html"><h3>Зарина Ильдаровна</h3></a>
+                <p>
+                  Для медицинской помощи Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do et dolore san lacus vel facilisis.
+                </p>
+                <div style="padding-top: 10px">
+                  <div style="display: flex">
+                    <div>250 000 сум</div>
+                    <div class="total-price">1 000 000 сум</div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 25%"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      25%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pr-bottom">
+                <ul>
+                  <li>Возраст: <span>3 лет </span></li>
+                  <li>Регион: <span>Навои </span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single-program">
+            <div class="image">
+              <a href="program-details.html"
+                ><img src="assets/img/program/3.png" alt="Image"
+              /></a>
+            </div>
+            <div class="image-caption">
+              <div class="pr-content">
+                <a href="program-details.html"><h3>Артем Бибарсов</h3></a>
+                <p>
+                  Для медикаментов Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do et dolore san lacus vel facilisis.
+                </p>
+                <div style="padding-top: 10px">
+                  <div style="display: flex">
+                    <div>250 000 сум</div>
+                    <div class="total-price">1 000 000 сум</div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 25%"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      25%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pr-bottom">
+                <ul>
+                  <li>Возраст: <span>8 лет </span></li>
+                  <li>Регион: <span>Олмалик </span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single-program">
+            <div class="image">
+              <a href="program-details.html"
+                ><img src="assets/img/program/1.png" alt="Image"
+              /></a>
+            </div>
+            <div class="image-caption">
+              <div class="pr-content">
+                <a href="program-details.html"><h3>Алина Борисова</h3></a>
+                <p>
+                  Для образования Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do et dolore san lacus vel facilisis.
+                </p>
+                <div style="padding-top: 10px">
+                  <div style="display: flex">
+                    <div>250 000 сум</div>
+                    <div class="total-price">1 000 000 сум</div>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 25%"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      25%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pr-bottom">
+                <ul>
+                  <li>Возраст: <span>7 лет </span></li>
+                  <li>Регион: <span>Карши </span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-button text-center">
+          <a href="#" class="custom-btn"> Подробнее... </a>
         </div>
       </div>
     </section>
@@ -281,21 +458,20 @@
           <div class="col-lg-6">
             <div class="single-about">
               <div class="section-title">
-                <h6>about us</h6>
-                <h2>welcome to the learning leader baby care</h2>
+                <h6>Привет, это фонд</h6>
+                <h2>Humane</h2>
                 <img src="assets/img/title-border.png" alt="Image" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Мы расскажем, как помогать правильно и где искать помощь,
+                  когда она вам нужна. Будем рады стать вашим проводником в мире
+                  благотворительности, делиться с вами нашими знаниями и опытом.
                 </p>
               </div>
               <div class="about-list">
                 <ul>
                   <li>
                     <i class="flaticon-circle-outline"></i>
-                    Supporting the child Personality
+                    Для чистой воды
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor
@@ -303,7 +479,7 @@
                   </li>
                   <li>
                     <i class="flaticon-circle-outline"></i>
-                    Professional & Qualified Teacher
+                    Для образования
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor
@@ -311,7 +487,7 @@
                   </li>
                   <li>
                     <i class="flaticon-circle-outline"></i>
-                    Indoor/Outdoor Games For Kids
+                    Для здорового питания
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor
@@ -319,7 +495,7 @@
                   </li>
                   <li>
                     <i class="flaticon-circle-outline"></i>
-                    Best learning School For Kids
+                    Для медицинской помощи
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor
@@ -328,7 +504,7 @@
                 </ul>
               </div>
               <div class="custom-button">
-                <a href="#" class="custom-btn"> discover more </a>
+                <a href="#" class="custom-btn"> Узнайте больше </a>
               </div>
             </div>
           </div>
@@ -416,90 +592,6 @@
         </div>
         <div class="shape6">
           <img src="assets/img/shape/shape12.png" alt="Shape" />
-        </div>
-      </div>
-    </section>
-
-    <section class="program-section pt-100 pb-100">
-      <div class="container">
-        <div class="section-title text-center">
-          <h6>program</h6>
-          <h2>our class program</h2>
-          <img src="assets/img/title-border.png" alt="Image" />
-        </div>
-        <div class="program-slider owl-carousel owl-theme">
-          <div class="single-program">
-            <div class="image">
-              <a href="program-details.html"
-                ><img src="assets/img/program/1.png" alt="Image"
-              /></a>
-            </div>
-            <div class="image-caption">
-              <div class="pr-content">
-                <a href="program-details.html"><h3>numbers matching</h3></a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do et dolore san lacus vel facilisis.
-                </p>
-              </div>
-              <div class="pr-bottom">
-                <ul>
-                  <li>age: <span>2-4 years </span></li>
-                  <li>time: <span>9.00-11.00 </span></li>
-                  <li>price: <span>$20 </span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="single-program">
-            <div class="image">
-              <a href="program-details.html"
-                ><img src="assets/img/program/2.png" alt="Image"
-              /></a>
-            </div>
-            <div class="image-caption">
-              <div class="pr-content">
-                <a href="program-details.html"><h3>nursery</h3></a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do et dolore san lacus vel facilisis.
-                </p>
-              </div>
-              <div class="pr-bottom">
-                <ul>
-                  <li>age: <span>2-4 years </span></li>
-                  <li>time: <span>9.00-11.00 </span></li>
-                  <li>price: <span>$20 </span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="single-program">
-            <div class="image">
-              <a href="program-details.html"
-                ><img src="assets/img/program/3.png" alt="Image"
-              /></a>
-            </div>
-            <div class="image-caption">
-              <div class="pr-content">
-                <a href="program-details.html"><h3>paper plates art</h3></a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do et dolore san lacus vel facilisis.
-                </p>
-              </div>
-              <div class="pr-bottom">
-                <ul>
-                  <li>age: <span>2-4 years </span></li>
-                  <li>time: <span>9.00-11.00 </span></li>
-                  <li>price: <span>$20 </span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="custom-button text-center">
-          <a href="#" class="custom-btn"> view-details </a>
         </div>
       </div>
     </section>
@@ -1080,105 +1172,5 @@
         </div>
       </div>
     </section>
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="foot-about">
-              <h3>About Us</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.
-              </p>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-facebook-logo"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-twitter-black-shape"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-google-plus-symbol"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="flaticon-linkedin-letters"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="classes-foot">
-              <h3>Classes</h3>
-              <ul>
-                <li><a href="#">music</a></li>
-                <li><a href="#">Foreign Language</a></li>
-                <li><a href="#">Dance</a></li>
-                <li><a href="#">Drama</a></li>
-                <li><a href="#">Sports Skill</a></li>
-                <li><a href="#">Previous Reading</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2">
-            <div class="quick-link">
-              <h3>quick links</h3>
-              <ul>
-                <li><a href="about.html">about</a></li>
-                <li><a href="team.html">our team</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="event.html">event</a></li>
-                <li><a href="program-details.html">program details</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="latest-news">
-              <h3>latest news</h3>
-              <ul>
-                <li>
-                  <a href="#">Image Side Show Post</a>
-                  <p>August 10,2019</p>
-                </li>
-                <li>
-                  <a href="#">Image Side Show Post</a>
-                  <p>August 10,2019</p>
-                </li>
-                <li>
-                  <a href="#">Image Side Show Post</a>
-                  <p>August 10,2019</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>
-          &copy; 2021
-          <a href="#" target="_new" title="#">site.com</a>
-        </p>
-      </div>
-    </div>
   </div>
 </template>

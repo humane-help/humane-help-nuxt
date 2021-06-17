@@ -1,41 +1,113 @@
 <template>
-  <section class="footer-top">
-    <b-container>
-      <b-row>
-        <b-col md="3">
-          <h5 class="footer-top--title">{{ $t('footer.know_first') }}</h5>
-          <p class="footer-top--description">
-            {{ $t('footer.subscribe_text') }}
-          </p>
-          <hr />
-          <socials class="my-3" />
-          <a href="/company/" class="btn btn-primary mt-6 footer-top--btn">
-            {{ $t('footer.subscribe_news') }}
-          </a>
-        </b-col>
-        <b-col md="9">
-          <b-row>
-            <b-col md="6">
-              <h5 class="footer-top--title">Ближайшие события</h5>
-              <simple-card
-                v-for="item in events"
-                :key="item.title"
-                :item="item"
-              ></simple-card>
-            </b-col>
-            <b-col md="6">
-              <h5 class="footer-top--title">Новости</h5>
-              <simple-card
-                v-for="item in events"
-                :key="item.title"
-                :item="item"
-              ></simple-card>
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-    </b-container>
-  </section>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="foot-about">
+            <h3>{{ $t('footer.our_contacts') }}</h3>
+            <div class="inf-foot">
+              <ul>
+                <li>
+                  <span style="color: white">
+                    <b-icon-phone />
+                  </span>
+                  <a class="phone--text" href="#">+998 93 707 73 71</a>
+                </li>
+                <li>
+                  <span style="color: white">
+                    <b-icon-geo />
+                  </span>
+                  <a href="#">
+                    <span class="address--city"> Ташкент </span>
+                    <span class="address--street">
+                      {{ $t('address.address') }}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <span style="color: white">
+                    <b-icon-envelope />
+                  </span>
+                  <a class="mail--text" href="mailto:info@humane.uz">
+                    info@humane.uz
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="social-icon">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="flaticon-facebook-logo"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="flaticon-twitter-black-shape"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="flaticon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="flaticon-google-plus-symbol"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="flaticon-linkedin-letters"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="classes-foot">
+            <h3>Помощь</h3>
+            <ul>
+              <li><a href="#">Для чистой воды</a></li>
+              <li><a href="#">Для здорового питания</a></li>
+              <li><a href="#">Для образования</a></li>
+              <li><a href="#">Для медицинской помощи</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="quick-link">
+            <h3>О фонде</h3>
+            <ul>
+              <li><a href="#">Миссия</a></li>
+              <li><a href="#">История</a></li>
+              <li><a href="#">Наши партнеры</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="latest-news">
+            <h3>Дети нуждающиеся в помощи</h3>
+            <ul>
+              <li>
+                <a href="#">Image Side Show Post</a>
+                <p>August 10,2019</p>
+              </li>
+              <li>
+                <a href="#">Image Side Show Post</a>
+                <p>August 10,2019</p>
+              </li>
+              <li>
+                <a href="#">Image Side Show Post</a>
+                <p>August 10,2019</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -69,27 +141,4 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
-.footer-top {
-  margin-top: 60px;
-  padding-top: 30px;
-  background: $background;
-  &--title {
-    font-size: 1em;
-    margin-bottom: 30px;
-    @include md-down() {
-      margin-top: 30px;
-    }
-  }
-  &--description {
-    font-size: 13px;
-  }
-  &--btn {
-    width: 100%;
-    &:hover {
-      background-color: var(--green);
-      border-color: var(--green);
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>
