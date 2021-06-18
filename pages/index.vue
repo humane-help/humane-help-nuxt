@@ -283,6 +283,7 @@
           <h2>Дети нуждающиеся в помощи</h2>
           <img src="assets/img/title-border.png" alt="Image" />
         </div>
+
         <div class="program-slider owl-carousel owl-theme">
           <div class="single-program">
             <div class="image">
@@ -297,7 +298,8 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do et dolore san lacus vel facilisis.
                 </p>
-                  <div style="padding-top: 10px">
+                <div style="padding-top: 10px">
+                  <div>
                     <div style="display: flex">
                       <div>250 000 сум</div>
                       <div class="total-price">1 000 000 сум</div>
@@ -317,12 +319,12 @@
                   </div>
                 </div>
               </div>
-              <div class="pr-bottom">
-                <ul>
-                  <li>Возраст: <span>4 лет </span></li>
-                  <li>Регион: <span>Ташкент</span></li>
-                </ul>
-              </div>
+            </div>
+            <div class="pr-bottom">
+              <ul>
+                <li>Возраст: <span>4 лет </span></li>
+                <li>Регион: <span>Ташкент</span></li>
+              </ul>
             </div>
           </div>
           <div class="single-program">
@@ -339,20 +341,22 @@
                   adipiscing elit, sed do et dolore san lacus vel facilisis.
                 </p>
                 <div style="padding-top: 10px">
-                  <div style="display: flex">
-                    <div>250 000 сум</div>
-                    <div class="total-price">1 000 000 сум</div>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 25%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      25%
+                  <div>
+                    <div style="display: flex">
+                      <div>250 000 сум</div>
+                      <div class="total-price">1 000 000 сум</div>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 25%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        25%
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -379,20 +383,22 @@
                   adipiscing elit, sed do et dolore san lacus vel facilisis.
                 </p>
                 <div style="padding-top: 10px">
-                  <div style="display: flex">
-                    <div>250 000 сум</div>
-                    <div class="total-price">1 000 000 сум</div>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 25%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      25%
+                  <div>
+                    <div style="display: flex">
+                      <div>250 000 сум</div>
+                      <div class="total-price">1 000 000 сум</div>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 25%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        25%
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -419,20 +425,22 @@
                   adipiscing elit, sed do et dolore san lacus vel facilisis.
                 </p>
                 <div style="padding-top: 10px">
-                  <div style="display: flex">
-                    <div>250 000 сум</div>
-                    <div class="total-price">1 000 000 сум</div>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 25%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      25%
+                  <div>
+                    <div style="display: flex">
+                      <div>250 000 сум</div>
+                      <div class="total-price">1 000 000 сум</div>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 25%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        25%
+                      </div>
                     </div>
                   </div>
                 </div>
